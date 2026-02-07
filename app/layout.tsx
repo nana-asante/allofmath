@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Crimson_Pro, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const crimsonPro = Crimson_Pro({
@@ -81,6 +82,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
