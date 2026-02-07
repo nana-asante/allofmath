@@ -42,6 +42,11 @@ The most valuable contribution you can make is adding math problems to our datas
    ```bash
    pnpm dataset:validate
    ```
+
+   > **Tip:** If you see a "Duplicate ID" error, you can automatically fix it by running:
+   > ```bash
+   > npx tsx scripts/fix-duplicate-ids.ts
+   > ```
 4. Commit and open a PR
 
 ### Problem ID Format
