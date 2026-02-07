@@ -82,7 +82,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full details.
   "id": "aom_arithmetic_0001",
   "topic": "Arithmetic",
   "seed_difficulty": 1,
-  "prompt": "What is 2 + 2?",
+  "prompt": "2 + 2",
   "answer": { "kind": "number", "value": 4 },
   "status": "community",
   "source": "original",
