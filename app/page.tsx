@@ -3,6 +3,8 @@ import path from "node:path";
 import { globSync } from "glob";
 import Link from "next/link";
 import { MathBackground } from "@/components/MathBackground";
+import { Suspense } from "react";
+import { AuthCheck } from "@/components/AuthCheck";
 
 function getProblemCount() {
   const problemsDir = path.join(process.cwd(), "data/problems");
@@ -15,6 +17,11 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Auth Callback Check */}
+      <Suspense fallback={null}>
+        <AuthCheck />
+      </Suspense>
+
       {/* Hero Section - add padding-top for transparent header */}
       <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-16">
         {/* Interactive floating math symbols */}
