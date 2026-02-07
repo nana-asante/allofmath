@@ -28,55 +28,13 @@ export async function POST(request: NextRequest) {
         return NextResponse.json({ claimed: false, reason: "no_session" });
     }
 
-    try {
-        // 3. Update attempts
-        const { error: attemptsError } = await supabaseAdmin
-            .from("attempts")
-            .update({ user_id: user.id })
-            .eq("session_hash", sessionHash)
-            .is("user_id", null);
+    // 3. Claim session using shared logic
+    const { claimSession } = await import("@/lib/claim-session");
+    const result = await claimSession(user.id, sessionHash, user.user_metadata);
 
-        if (attemptsError) {
-            console.error("claim-session attempts error:", attemptsError);
-            // Don't fail the whole request, try votes next
-        }
-
-        // 4. Update votes
-        const { error: votesError } = await supabaseAdmin
-            .from("pairwise_votes")
-            .update({ user_id: user.id })
-            .eq("session_hash", sessionHash)
-            .is("user_id", null);
-
-        if (votesError) {
-            console.error("claim-session votes error:", votesError);
-        }
-
-        // 5. Initialize user stats (if not exists)
-        await supabaseAdmin
-            .from("user_ratings")
-            .upsert(
-                { user_id: user.id, rating: 1000, n_attempts: 0 },
-                { onConflict: "user_id", ignoreDuplicates: true }
-            );
-
-        // 6. Init profile (if not exists) using GitHub/Google metadata if available
-        const displayName =
-            user.user_metadata.full_name ||
-            user.user_metadata.name ||
-            user.email?.split("@")[0] ||
-            "Anonymous";
-
-        await supabaseAdmin
-            .from("profiles")
-            .upsert(
-                { user_id: user.id, display_name: displayName },
-                { onConflict: "user_id", ignoreDuplicates: true }
-            );
-
-        return NextResponse.json({ success: true });
-    } catch (error) {
-        console.error("claim-session error:", error);
-        return NextResponse.json({ error: "Internal server error" }, { status: 500 });
+    if (!result.success) {
+        return NextResponse.json({ error: "Failed to claim session" }, { status: 500 });
     }
+
+    return NextResponse.json({ success: true });
 }

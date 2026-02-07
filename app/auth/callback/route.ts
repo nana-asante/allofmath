@@ -12,15 +12,20 @@ export async function GET(request: Request) {
         const supabase = await createSupabaseServerClient();
         const { error } = await supabase.auth.exchangeCodeForSession(code);
         if (!error) {
-            // Claim anonymous session in background (don't await to speed up redirect)
-            // We use fetch to call our own API route
-            await fetch(`${origin}/api/auth/claim-session`, {
-                method: "POST",
-                headers: {
-                    // Forward cookies for auth
-                    Cookie: request.headers.get("cookie") || "",
-                },
-            }).catch((err) => console.error("Failed to claim session:", err));
+            // Claim anonymous session in background (we can await it, it's fast)
+            // Use direct DB update to avoid 401 issues with fetch cookies
+            const { getSessionHash } = await import("@/lib/session");
+            const sessionHash = await getSessionHash();
+
+            if (sessionHash) {
+                const { claimSession } = await import("@/lib/claim-session");
+                const { data: { user } } = await supabase.auth.getUser();
+
+                if (user) {
+                    // Ensure we pass user metadata for profile creation
+                    await claimSession(user.id, sessionHash, user.user_metadata);
+                }
+            }
 
             // Forward to protected route
             return NextResponse.redirect(`${origin}${next}`);
