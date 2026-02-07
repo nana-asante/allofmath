@@ -7,6 +7,7 @@ import {
     BarChart, Bar
 } from "recharts";
 import Link from "next/link";
+import { User } from "@supabase/supabase-js";
 
 type Stats = {
     rating: number;
@@ -43,7 +44,7 @@ export default function DashboardPage() {
     const [history, setHistory] = useState<HistoryPoint[]>([]);
     const [topicData, setTopicData] = useState<TopicPoint[]>([]);
     const [loading, setLoading] = useState(true);
-    const [user, setUser] = useState<any>(null);
+    const [user, setUser] = useState<User | null>(null);
 
     const supabase = createSupabaseBrowserClient();
 
@@ -64,7 +65,13 @@ export default function DashboardPage() {
             setLoading(false);
         }
         loadData();
-    }, []);
+    }, [supabase.auth]); // Added dependency
+
+    useEffect(() => {
+        if (!loading && !user) {
+            window.location.href = "/sign-in";
+        }
+    }, [loading, user]);
 
     const handleSignOut = async () => {
         await supabase.auth.signOut();
@@ -80,9 +87,6 @@ export default function DashboardPage() {
     }
 
     if (!user) {
-        if (typeof window !== "undefined") {
-            window.location.href = "/sign-in";
-        }
         return (
             <main className="flex-1 flex items-center justify-center min-h-screen">
                 <div className="animate-pulse text-foreground/40">Redirecting...</div>

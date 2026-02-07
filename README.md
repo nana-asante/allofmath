@@ -50,14 +50,16 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 
 ```
 allofmath/
-├── app/                  # Next.js App Router pages
-├── api/                  # Shared server utilities
+├── app/                  # Next.js App Router pages & API routes
 ├── components/           # React components
 ├── data/
 │   ├── problems/         # Math problems (JSON files)
 │   └── schema/           # Zod validation schemas
-├── docs/                 # Documentation
-└── supabase/             # Database migrations
+├── lib/                  # Shared utilities and libraries
+├── public/               # Static assets
+├── scripts/              # Maintenance scripts
+├── supabase/             # Database migrations
+└── docs/                 # Documentation
 ```
 
 ## Contributing

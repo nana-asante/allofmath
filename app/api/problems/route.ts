@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { loadProblemsList } from "@/lib/problem-corpus";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 import { ratingToLevel, seedToRating } from "@/lib/level";
@@ -6,7 +6,7 @@ import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const runtime = "nodejs";
 
-export async function GET(request: NextRequest) {
+export async function GET() {
     try {
         const problems = loadProblemsList();
 
@@ -63,7 +63,8 @@ export async function GET(request: NextRequest) {
 
         // Merge problems with live ratings and solved status (exclude answers)
         const safeProblems = problems.map((problem) => {
-            const { answer: _answer, ...rest } = problem;
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            const { answer, ...rest } = problem;
             const liveRating = ratingsMap.get(problem.id);
             const problemRating = liveRating?.rating ?? seedToRating(problem.seed_difficulty ?? problem.difficulty ?? 5);
 

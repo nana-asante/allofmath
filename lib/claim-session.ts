@@ -1,7 +1,7 @@
 
 import { supabaseAdmin } from "@/lib/supabase-admin";
 
-export async function claimSession(userId: string, sessionHash: string, userMetadata: any = {}) {
+export async function claimSession(userId: string, sessionHash: string, userMetadata: { full_name?: string; name?: string; email?: string } = {}) {
     try {
         console.log(`Claiming session ${sessionHash} for user ${userId}`);
 

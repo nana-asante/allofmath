@@ -68,14 +68,16 @@ The most valuable contribution you can make is adding math problems to our datas
 
 Rate problems on a 1-20 scale based on expected audience:
 
-| Level | Description | Example |
-|-------|-------------|---------|
-| 1-3 | Elementary school | `2 + 2 = ?` |
-| 4-6 | Middle school | `Solve: 3x = 12` |
-| 7-10 | High school | Quadratics, basic trig |
-| 11-14 | Undergraduate | Calculus, linear algebra |
-| 15-17 | Advanced undergrad | Real analysis, abstract algebra |
-| 18-20 | Graduate/Competition | Research-level, IMO-hard |
+
+| Level | Grade / Category | Topics / Examples |
+|-------|------------------|-------------------|
+| 1–3 | Elementary | Basic arithmetic: 2+3, 10-4, 3×4 |
+| 4–6 | Middle School | Fractions, decimals, basic algebra |
+| 7–9 | Pre-Algebra | Equations, ratios, percentages |
+| 10–12 | Algebra I | Linear equations, polynomials |
+| 13–15 | Algebra II / Geometry | Quadratics, proofs, trigonometry |
+| 16–18 | Precalculus / Calculus | Limits, derivatives, integrals |
+| 19–20 | Competition / Advanced | Olympiad-style, proofs, number theory |
 
 Your initial rating is a "seed" — the community will refine it through voting over time.
 

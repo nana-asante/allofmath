@@ -1,6 +1,5 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
-import { supabaseAdmin } from "@/lib/supabase-admin";
 import { getSessionHash } from "@/lib/session";
 
 export const runtime = "nodejs";
@@ -10,7 +9,7 @@ export const runtime = "nodejs";
  * Migrates anonymous session data (attempts, votes) to the authenticated user.
  * Call this immediately after sign-in.
  */
-export async function POST(request: NextRequest) {
+export async function POST() {
     // 1. Verify user is authenticated
     const supabase = await createSupabaseServerClient();
     const {

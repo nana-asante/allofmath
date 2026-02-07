@@ -1,11 +1,11 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { supabaseAdmin } from "@/lib/supabase-admin";
 import { ratingToLevel } from "@/lib/level";
 
 export const runtime = "nodejs";
 
-export async function GET(request: NextRequest) {
+export async function GET() {
     const supabase = await createSupabaseServerClient();
     const {
         data: { user },
@@ -24,11 +24,11 @@ export async function GET(request: NextRequest) {
             .single();
 
         const rating = ratingData?.rating ?? 1000;
-        const attempts = ratingData?.n_attempts ?? 0;
+        // const attempts = ratingData?.n_attempts ?? 0; // Unused
 
         // 2. Get distinct problems solved
         // Optimized: only count distinct problem_id where outcome = 'correct'
-        const { count: solvedCount, error: solvedError } = await supabaseAdmin
+        const { count: solvedCount } = await supabaseAdmin
             .from("attempts")
             .select("problem_id", { count: "exact", head: true })
             .eq("user_id", user.id)

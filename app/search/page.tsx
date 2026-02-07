@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import Link from "next/link";
 import katex from "katex";
 import "katex/dist/katex.min.css";
@@ -84,7 +84,7 @@ export default function SearchPage() {
     }, [problems]);
 
     // Sort function
-    const sortResults = (items: Problem[]) => {
+    const sortResults = useCallback((items: Problem[]) => {
         const sorted = [...items];
         switch (sortBy) {
             case "difficulty-asc":
@@ -97,7 +97,7 @@ export default function SearchPage() {
             default:
                 return sorted.sort((a, b) => (b.rank ?? 0) - (a.rank ?? 0));
         }
-    };
+    }, [sortBy]);
 
     // Search effect
     useEffect(() => {
@@ -146,7 +146,7 @@ export default function SearchPage() {
 
         const clientSideSearch = () => {
             const q = debouncedQuery.toLowerCase().trim();
-            let filtered = problems.filter((p) => {
+            const filtered = problems.filter((p) => {
                 if (topicFilter && p.topic !== topicFilter) return false;
                 if (levelFilter && getDifficulty(p) !== parseInt(levelFilter, 10)) return false;
                 if (q) {
@@ -161,7 +161,7 @@ export default function SearchPage() {
         };
 
         searchApi();
-    }, [debouncedQuery, topicFilter, levelFilter, sortBy, problems, useApiSearch]);
+    }, [debouncedQuery, topicFilter, levelFilter, sortBy, problems, useApiSearch, sortResults]);
 
     return (
         <main className="mx-auto flex-1 px-6 py-20 pt-24" style={{ maxWidth: "1200px" }}>

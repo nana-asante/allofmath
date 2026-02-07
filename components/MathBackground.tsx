@@ -83,7 +83,6 @@ export function MathBackground() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             // Get computed styles for colors
-            const styles = getComputedStyle(document.documentElement);
             const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
             const color = isDark ? "rgba(245, 244, 239, 0.12)" : "rgba(26, 26, 26, 0.08)";
 

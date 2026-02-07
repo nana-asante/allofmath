@@ -41,14 +41,14 @@ for (const relPath of files) {
     let raw: string;
     try {
         raw = fs.readFileSync(fullPath, "utf8");
-    } catch (e) {
+    } catch {
         fail(`Could not read ${fullPath}`);
     }
 
     let obj: unknown;
     try {
         obj = JSON.parse(raw);
-    } catch (e) {
+    } catch {
         fail(`Invalid JSON in ${relPath}`);
     }
 

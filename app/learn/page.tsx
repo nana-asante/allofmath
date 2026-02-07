@@ -24,7 +24,7 @@ interface AttemptResult {
 type GameState = "loading" | "onboarding" | "solving" | "feedback" | "watching" | "voting" | "complete";
 type Outcome = "correct" | "wrong" | "giveup";
 type Vote = "easier" | "same" | "harder";
-type VideoFeedback = "helpful" | "not_helpful" | null;
+
 
 // Difficulty level descriptions for onboarding
 const LEVEL_DESCRIPTIONS: { range: [number, number]; label: string; examples: string }[] = [
