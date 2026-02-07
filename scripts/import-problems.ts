@@ -1,6 +1,5 @@
 import fs from "node:fs";
 import path from "node:path";
-import { Problem } from "../data/schema/problem.schema";
 
 const problemsDir = path.join(process.cwd(), "data/problems");
 
@@ -32,15 +31,16 @@ function main() {
         process.exit(1);
     }
 
-    let problems: any[];
+    let problems: Record<string, unknown>[];
     try {
         const raw = fs.readFileSync(inputFilePath, "utf8");
         problems = JSON.parse(raw);
         if (!Array.isArray(problems)) {
             throw new Error("Input file must contain a JSON array of problems.");
         }
-    } catch (e: any) {
-        console.error(`Failed to parse input file: ${e.message}`);
+    } catch (e) {
+        const error = e instanceof Error ? e : new Error(String(e));
+        console.error(`Failed to parse input file: ${error.message}`);
         process.exit(1);
     }
 
@@ -62,7 +62,7 @@ function main() {
             continue;
         }
 
-        const topicDirName = normalizeTopic(p.topic);
+        const topicDirName = normalizeTopic(String(p.topic));
         const targetDir = path.join(problemsDir, topicDirName);
 
         // Create directory if it doesn't exist
@@ -90,10 +90,11 @@ function main() {
             fs.writeFileSync(targetPath, JSON.stringify(p, null, 2));
             console.log(`[OK] Wrote ${path.join(topicDirName, filename)}`);
             result.success++;
-        } catch (e: any) {
-            console.error(`[FAIL] Could not write ${p.id}:`, e.message);
+        } catch (e) {
+            const error = e instanceof Error ? e : new Error(String(e));
+            console.error(`[FAIL] Could not write ${p.id}:`, error.message);
             result.failed++;
-            result.errors.push(`${p.id}: ${e.message}`);
+            result.errors.push(`${p.id}: ${error.message}`);
         }
     }
 
