@@ -34,10 +34,14 @@ export default function SignInPage() {
 
     const handleGitHubLogin = async () => {
         setLoading(true);
+        // Use explicit site URL if available, otherwise fallback to window location
+        // This helps in production where window.location.origin might be different from configured auth callback
+        const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || window.location.origin;
+
         const { error } = await supabase.auth.signInWithOAuth({
             provider: "github",
             options: {
-                redirectTo: `${location.origin}/auth/callback`,
+                redirectTo: `${siteUrl}/auth/callback`,
             },
         });
 
