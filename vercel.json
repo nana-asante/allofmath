@@ -1,0 +1,12 @@
+{
+    "crons": [
+        {
+            "path": "/api/admin/sync-problems",
+            "schedule": "0 6 * * *"
+        },
+        {
+            "path": "/api/admin/sync-problem-ratings",
+            "schedule": "5 6 * * *"
+        }
+    ]
+}
