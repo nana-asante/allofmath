@@ -49,11 +49,16 @@ export default function SearchPage() {
         fetch("/api/problems")
             .then((res) => res.json())
             .then((data) => {
-                setProblems(data);
-                setResults(data.slice(0, 20));
+                // New API format: { problems, userRating, isAuthenticated }
+                const problemsList = Array.isArray(data) ? data : (data.problems || []);
+                setProblems(problemsList);
+                setResults(problemsList.slice(0, 20));
                 setLoading(false);
             })
-            .catch(() => setLoading(false));
+            .catch((err) => {
+                console.error("Failed to fetch problems:", err);
+                setLoading(false);
+            });
     }, []);
 
     // Debounce query

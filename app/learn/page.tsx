@@ -13,6 +13,8 @@ interface Problem {
     prompt: string;
     hasAnswer?: boolean;
     solution_video_url?: string;
+    rating?: number;
+    solved?: boolean;
 }
 
 interface AttemptResult {
@@ -98,8 +100,12 @@ export default function LearnPage() {
     // Counts problems completed (not attempts)
     const [completedCount, setCompletedCount] = useState(0);
 
-    // Seen problem IDs
+    // Seen problem IDs (per session)
     const [seenIds, setSeenIds] = useState<Set<string>>(new Set());
+
+    // Smart selection: user rating and regression mode
+    const [userRating, setUserRating] = useState(1000);
+    const [inRegressionMode, setInRegressionMode] = useState(false);
 
     // For “wrong”: user can retry without changing difficulty yet.
     const [isResolved, setIsResolved] = useState(false); // resolved == we’re done with this problem (correct/giveup)
@@ -172,7 +178,14 @@ export default function LearnPage() {
                 if (!res.ok) throw new Error("Failed to load problems");
 
                 const data = await res.json();
-                setProblems(data);
+                // New API format: { problems, userRating, isAuthenticated }
+                const problemsList = data.problems ?? data; // Backwards compat
+                setProblems(problemsList);
+
+                // Set user rating if authenticated
+                if (data.userRating) {
+                    setUserRating(data.userRating);
+                }
 
                 // Check for ?start= parameter (from search)
                 const urlParams = new URLSearchParams(window.location.search);
@@ -187,7 +200,7 @@ export default function LearnPage() {
 
                     // If ?start= provided, find that problem
                     if (startId) {
-                        const startProblem = data.find((p: Problem) => p.id === startId);
+                        const startProblem = problemsList.find((p: Problem) => p.id === startId);
                         if (startProblem) {
                             setCurrentProblem(startProblem);
                             setSeenIds(new Set([startProblem.id]));
@@ -211,26 +224,57 @@ export default function LearnPage() {
         init();
     }, [startTimer]);
 
-    // --- Problem selection ---
+    // --- Problem selection (Smart: rating-based, excludes solved unless regressing) ---
     const selectNextProblem = useCallback(
-        (difficultyOverride?: number) => {
+        (ratingOverride?: number) => {
             if (problems.length === 0) return;
 
-            const targetDifficulty = difficultyOverride ?? difficultyRef.current;
+            const targetRating = ratingOverride ?? userRating;
+            const ratingWindow = inRegressionMode ? 200 : 150; // Wider window in regression
 
-            let candidates = problems.filter(
-                (p) => p.difficulty === targetDifficulty && !seenIds.has(p.id)
-            );
+            // Filter candidates by rating range
+            // In regression mode: include solved problems at lower ratings
+            // Normal mode: exclude solved problems
+            let candidates = problems.filter((p) => {
+                const problemRating = p.rating ?? 1000;
+                const inRange = Math.abs(problemRating - targetRating) <= ratingWindow;
+                const notSeenThisSession = !seenIds.has(p.id);
 
-            for (let delta = 1; delta <= 10 && candidates.length === 0; delta++) {
-                candidates = problems.filter(
-                    (p) => Math.abs(p.difficulty - targetDifficulty) <= delta && !seenIds.has(p.id)
-                );
+                if (inRegressionMode) {
+                    // Allow solved problems if they're easier
+                    return inRange && notSeenThisSession;
+                } else {
+                    // Exclude solved problems
+                    return inRange && notSeenThisSession && !p.solved;
+                }
+            });
+
+            // Expand search if needed
+            for (let delta = 50; delta <= 500 && candidates.length === 0; delta += 50) {
+                candidates = problems.filter((p) => {
+                    const problemRating = p.rating ?? 1000;
+                    const inRange = Math.abs(problemRating - targetRating) <= ratingWindow + delta;
+                    const notSeenThisSession = !seenIds.has(p.id);
+
+                    if (inRegressionMode) {
+                        return inRange && notSeenThisSession;
+                    } else {
+                        return inRange && notSeenThisSession && !p.solved;
+                    }
+                });
             }
 
-            // fallback: allow repeats if user exhausted unseen
+            // Final fallback: any unseen problem near target rating
             if (candidates.length === 0) {
-                candidates = problems.filter((p) => Math.abs(p.difficulty - targetDifficulty) <= 3);
+                candidates = problems.filter((p) => !seenIds.has(p.id));
+            }
+
+            // Ultimate fallback: allow seen problems (reset session)
+            if (candidates.length === 0) {
+                candidates = problems.filter((p) => {
+                    const problemRating = p.rating ?? 1000;
+                    return Math.abs(problemRating - targetRating) <= 300;
+                });
             }
 
             if (candidates.length === 0) {
@@ -238,6 +282,7 @@ export default function LearnPage() {
                 return;
             }
 
+            // Pick random from candidates
             const selected = candidates[Math.floor(Math.random() * candidates.length)];
 
             setPreviousProblem(currentProblem);
@@ -251,7 +296,7 @@ export default function LearnPage() {
             setGameState("solving");
             startTimer();
         },
-        [problems, seenIds, currentProblem, startTimer]
+        [problems, seenIds, currentProblem, startTimer, userRating, inRegressionMode]
     );
 
     useEffect(() => {
@@ -329,11 +374,23 @@ export default function LearnPage() {
      * - Wrong only affects difficulty if user chooses “Move on”.
      */
     const finalizeAndContinue = (finalOutcome: Outcome) => {
+        // Rating-based progression
+        const ratingDelta = finalOutcome === "correct" ? 50 : -75;
+        const nextRating = Math.max(500, Math.min(2500, userRating + ratingDelta));
+        setUserRating(nextRating);
+
+        // Regression mode: activated on wrong/giveup, deactivated on correct
+        if (finalOutcome === "correct") {
+            setInRegressionMode(false);
+        } else {
+            setInRegressionMode(true);
+        }
+
+        // Keep difficulty in sync for fallback (onboarding uses it)
         const nextDifficulty =
             finalOutcome === "correct"
                 ? Math.min(20, difficultyRef.current + 1)
                 : Math.max(1, difficultyRef.current - 1);
-
         difficultyRef.current = nextDifficulty;
         setDifficulty(nextDifficulty);
 
@@ -346,7 +403,7 @@ export default function LearnPage() {
             return;
         }
 
-        selectNextProblem(nextDifficulty);
+        selectNextProblem(nextRating);
     };
 
     const submitVote = async (vote: Vote) => {

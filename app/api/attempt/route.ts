@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { getSessionHash } from "@/lib/session";
-import { createServerClient } from "@/lib/supabase";
+import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { checkDualRateLimit, getClientIP } from "@/lib/rate-limit";
 import { loadProblemsMap } from "@/lib/problem-corpus";
 import type { Problem } from "@/data/schema/problem.schema";
@@ -129,9 +129,17 @@ export async function POST(request: NextRequest) {
         }
 
         // Store attempt (server-side insert)
-        const supabase = createServerClient();
-        const { error: dbError } = await supabase.from("attempts").insert({
+        // Use SSR client to get authenticated user
+        const supabase = await createSupabaseServerClient();
+        const {
+            data: { user },
+        } = await supabase.auth.getUser();
+
+        // Use admin client for insert (RLS blocks anon key inserts)
+        const { supabaseAdmin } = await import("@/lib/supabase-admin");
+        const { error: dbError } = await supabaseAdmin.from("attempts").insert({
             session_hash: sessionHash,
+            user_id: user?.id ?? null, // Link to user if logged in
             problem_id: problemId,
             outcome,
             time_ms: timeMs,
@@ -141,6 +149,57 @@ export async function POST(request: NextRequest) {
         if (dbError) {
             console.error("Failed to store attempt:", dbError);
             // Don't block the user flow if analytics insert fails
+        }
+
+        // Update User Elo if logged in and outcome is decisive
+        if (user && outcome !== "giveup") {
+            // Import admin client for rating updates (bypasses RLS)
+            const { supabaseAdmin } = await import("@/lib/supabase-admin");
+            const { expectedScore, kFactor } = await import("@/lib/elo");
+
+            // Get current user rating
+            const { data: userData } = await supabaseAdmin
+                .from("user_ratings")
+                .select("rating, n_attempts")
+                .eq("user_id", user.id)
+                .single();
+
+            // Get problem rating (fallback to seed if no dynamic rating)
+            const { data: problemData } = await supabaseAdmin
+                .from("problem_ratings")
+                .select("rating")
+                .eq("problem_id", problemId)
+                .single();
+
+            const userRating = userData?.rating ?? 1000;
+            const userAttempts = userData?.n_attempts ?? 0;
+            // Use problem seed difficulty mapped to rating if no dynamic rating
+            const { seedToRating } = await import("@/lib/level");
+            const problemRating = problemData?.rating ?? seedToRating(problem.seed_difficulty ?? problem.difficulty ?? 5);
+
+            // Calculate new rating
+            const actualScore = outcome === "correct" ? 1 : 0;
+            const expected = expectedScore(userRating, problemRating);
+            const K = kFactor(userAttempts); // High K for new users
+            const delta = Math.round(K * (actualScore - expected));
+            const newRating = Math.max(100, Math.min(4000, userRating + delta));
+
+            // Update user_ratings
+            await supabaseAdmin.from("user_ratings").upsert({
+                user_id: user.id,
+                rating: newRating,
+                n_attempts: userAttempts + 1,
+                updated_at: new Date().toISOString(),
+            });
+
+            // Record history
+            await supabaseAdmin.from("user_rating_history").insert({
+                user_id: user.id,
+                rating: newRating,
+                delta,
+                problem_id: problemId,
+                outcome,
+            });
         }
 
         return NextResponse.json({ correct, outcome });

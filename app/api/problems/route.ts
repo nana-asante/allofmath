@@ -1,13 +1,20 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { loadProblemsList } from "@/lib/problem-corpus";
 import { supabaseAdmin } from "@/lib/supabase-admin";
-import { ratingToLevel } from "@/lib/level";
+import { ratingToLevel, seedToRating } from "@/lib/level";
+import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const runtime = "nodejs";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
     try {
         const problems = loadProblemsList();
+
+        // Get authenticated user (if any)
+        const supabase = await createSupabaseServerClient();
+        const {
+            data: { user },
+        } = await supabase.auth.getUser();
 
         // Fetch live ratings from DB
         const { data: ratings, error: ratingsError } = await supabaseAdmin
@@ -16,7 +23,6 @@ export async function GET() {
 
         if (ratingsError) {
             console.error("Failed to fetch ratings:", ratingsError);
-            // Fall back to seed difficulty if DB fails
         }
 
         // Build ratings map for fast lookup
@@ -27,28 +33,58 @@ export async function GET() {
             }
         }
 
-        // Merge problems with live ratings (exclude answers)
+        // Fetch user's solved problems (if authenticated)
+        let solvedIds = new Set<string>();
+        let userRating = 1000;
+
+        if (user) {
+            // Get solved problem IDs
+            const { data: solvedProblems } = await supabaseAdmin
+                .from("attempts")
+                .select("problem_id")
+                .eq("user_id", user.id)
+                .eq("outcome", "correct");
+
+            if (solvedProblems) {
+                solvedIds = new Set(solvedProblems.map((p) => p.problem_id));
+            }
+
+            // Get user's current rating
+            const { data: ratingData } = await supabaseAdmin
+                .from("user_ratings")
+                .select("rating")
+                .eq("user_id", user.id)
+                .single();
+
+            if (ratingData) {
+                userRating = ratingData.rating;
+            }
+        }
+
+        // Merge problems with live ratings and solved status (exclude answers)
         const safeProblems = problems.map((problem) => {
             const { answer: _answer, ...rest } = problem;
             const liveRating = ratingsMap.get(problem.id);
+            const problemRating = liveRating?.rating ?? seedToRating(problem.seed_difficulty ?? problem.difficulty ?? 5);
 
             return {
                 ...rest,
                 hasAnswer: true,
-                // Use live rating if available, otherwise fall back to seed
-                rating: liveRating?.rating ?? null,
+                rating: problemRating,
                 n_votes: liveRating?.n_votes ?? 0,
-                // Compute display level from live rating or seed
-                level: liveRating
-                    ? ratingToLevel(liveRating.rating)
-                    : problem.seed_difficulty ?? problem.difficulty ?? 1,
+                level: ratingToLevel(problemRating),
+                solved: solvedIds.has(problem.id),
             };
         });
 
-        return NextResponse.json(safeProblems, {
+        return NextResponse.json({
+            problems: safeProblems,
+            userRating,
+            isAuthenticated: !!user,
+        }, {
             headers: {
-                // Shorter cache since ratings are dynamic now
-                "Cache-Control": "public, max-age=30, stale-while-revalidate=60",
+                // No cache when personalized
+                "Cache-Control": user ? "private, no-cache" : "public, max-age=30, stale-while-revalidate=60",
             },
         });
     } catch (error) {
@@ -59,3 +95,4 @@ export async function GET() {
         );
     }
 }
+

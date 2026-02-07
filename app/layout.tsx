@@ -47,7 +47,7 @@ function Header() {
           <Link href="/search">Search</Link>
           <Link href="/learn">Learn</Link>
           <Link href="/waitlist?feature=api">API</Link>
-          <Link href="/waitlist?feature=account">Account</Link>
+          <Link href="/me">Account</Link>
         </div>
       </nav>
     </header>
