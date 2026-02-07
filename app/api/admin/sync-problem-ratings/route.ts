@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/api/supabase-admin";
-import { loadProblemsList } from "@/api/problem-corpus";
-import { seedToRating } from "@/api/level";
-import { requireAdmin } from "@/api/admin-auth";
+import { supabaseAdmin } from "@/lib/supabase-admin";
+import { loadProblemsList } from "@/lib/problem-corpus";
+import { seedToRating } from "@/lib/level";
+import { requireAdmin } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 

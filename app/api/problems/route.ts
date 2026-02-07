@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import { loadProblemsList } from "@/api/problem-corpus";
-import { supabaseAdmin } from "@/api/supabase-admin";
-import { ratingToLevel } from "@/api/level";
+import { loadProblemsList } from "@/lib/problem-corpus";
+import { supabaseAdmin } from "@/lib/supabase-admin";
+import { ratingToLevel } from "@/lib/level";
 
 export const runtime = "nodejs";
 

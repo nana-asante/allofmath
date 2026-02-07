@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
-import { getSessionHash } from "@/api/session";
-import { createServerClient } from "@/api/supabase";
-import { checkDualRateLimit, getClientIP } from "@/api/rate-limit";
-import { loadProblemsMap } from "@/api/problem-corpus";
+import { getSessionHash } from "@/lib/session";
+import { createServerClient } from "@/lib/supabase";
+import { checkDualRateLimit, getClientIP } from "@/lib/rate-limit";
+import { loadProblemsMap } from "@/lib/problem-corpus";
 
 export const runtime = "nodejs";
 

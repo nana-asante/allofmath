@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { loadProblemsMap } from "@/api/problem-corpus";
+import { loadProblemsMap } from "@/lib/problem-corpus";
 
 export const runtime = "nodejs";
 

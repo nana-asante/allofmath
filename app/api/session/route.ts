@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getOrCreateSession, createSessionCookie } from "@/api/session";
-import { checkRateLimit, getClientIP } from "@/api/rate-limit";
+import { getOrCreateSession, createSessionCookie } from "@/lib/session";
+import { checkRateLimit, getClientIP } from "@/lib/rate-limit";
 
 export async function GET(request: NextRequest) {
     // Rate limit session creation by IP to prevent bot spam

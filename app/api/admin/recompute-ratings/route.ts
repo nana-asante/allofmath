@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/api/supabase-admin";
-import { updateElo, kFactor, voteToScore } from "@/api/elo";
-import { requireAdmin } from "@/api/admin-auth";
+import { supabaseAdmin } from "@/lib/supabase-admin";
+import { updateElo, kFactor, voteToScore } from "@/lib/elo";
+import { requireAdmin } from "@/lib/admin-auth";
 
 export const runtime = "nodejs";
 
