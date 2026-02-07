@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { loadProblemsList } from "@/api/problem-corpus";
+import { supabaseAdmin } from "@/api/supabase-admin";
+import { ratingToLevel } from "@/api/level";
 
 export const runtime = "nodejs";
 
@@ -7,15 +9,46 @@ export async function GET() {
     try {
         const problems = loadProblemsList();
 
-        // Return problems without answers for client use
-        const safeProblems = problems.map(({ answer: _answer, ...rest }: { answer: unknown;[key: string]: unknown }) => ({
-            ...rest,
-            hasAnswer: true,
-        }));
+        // Fetch live ratings from DB
+        const { data: ratings, error: ratingsError } = await supabaseAdmin
+            .from("problem_ratings")
+            .select("problem_id, rating, n_votes");
+
+        if (ratingsError) {
+            console.error("Failed to fetch ratings:", ratingsError);
+            // Fall back to seed difficulty if DB fails
+        }
+
+        // Build ratings map for fast lookup
+        const ratingsMap = new Map<string, { rating: number; n_votes: number }>();
+        if (ratings) {
+            for (const r of ratings) {
+                ratingsMap.set(r.problem_id, { rating: r.rating, n_votes: r.n_votes });
+            }
+        }
+
+        // Merge problems with live ratings (exclude answers)
+        const safeProblems = problems.map((problem) => {
+            const { answer: _answer, ...rest } = problem;
+            const liveRating = ratingsMap.get(problem.id);
+
+            return {
+                ...rest,
+                hasAnswer: true,
+                // Use live rating if available, otherwise fall back to seed
+                rating: liveRating?.rating ?? null,
+                n_votes: liveRating?.n_votes ?? 0,
+                // Compute display level from live rating or seed
+                level: liveRating
+                    ? ratingToLevel(liveRating.rating)
+                    : problem.seed_difficulty ?? problem.difficulty ?? 1,
+            };
+        });
 
         return NextResponse.json(safeProblems, {
             headers: {
-                "Cache-Control": "public, max-age=60, stale-while-revalidate=300",
+                // Shorter cache since ratings are dynamic now
+                "Cache-Control": "public, max-age=30, stale-while-revalidate=60",
             },
         });
     } catch (error) {

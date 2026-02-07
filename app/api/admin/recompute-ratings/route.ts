@@ -97,8 +97,8 @@ export async function POST(request: NextRequest) {
             // Score for A (prev problem)
             const sA = voteToScore(v.vote);
 
-            // Use K based on min votes (more conservative)
-            let k = Math.max(kFactor(A.n_votes), kFactor(B.n_votes));
+            // Use K based on min votes (more conservative for established problems)
+            let k = Math.min(kFactor(A.n_votes), kFactor(B.n_votes));
 
             // Reduce K for "same" votes (less informative)
             if (v.vote === "same") {

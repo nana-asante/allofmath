@@ -104,6 +104,8 @@ With tolerance (for decimals/approximations):
 }
 ```
 
+**Important:** If you omit `tolerance`, it defaults to `0`, meaning the user must enter the **exact** number. For decimal answers, always specify an appropriate tolerance.
+
 **Exact string answers** (formulas, expressions, text):
 ```json
 {
