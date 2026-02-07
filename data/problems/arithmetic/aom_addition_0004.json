@@ -1,0 +1,16 @@
+{
+    "id": "aom_addition_0004",
+    "topic": "Arithmetic",
+    "difficulty": 4,
+    "prompt": "47 + 38 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 85,
+        "tolerance": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+}

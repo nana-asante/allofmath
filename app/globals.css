@@ -1,26 +1,240 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Math textbook color palette */
+  --background: #faf8f5;
+  --foreground: #1a1a1a;
+  --card-bg: #ffffff;
+  --page-max: 720px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a1a18;
+    --foreground: #f5f4ef;
+    --card-bg: #242422;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-crimson);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Pi symbol cursor - dark cursor for light mode */
+* {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' fill='%231a1a1a'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, auto;
+}
+
+a,
+button,
+[role="button"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' font-weight='bold' fill='%231a1a1a'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, pointer;
+}
+
+/* Pi symbol cursor - light cursor for dark mode */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  * {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' fill='%23f5f4ef'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, auto;
+  }
+
+  a,
+  button,
+  [role="button"] {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' font-weight='bold' fill='%23f5f4ef'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, pointer;
+  }
+}
+
+/* Inverted cursor for elements with inverted backgrounds (like banner) */
+/* In light mode: banner is dark, so cursor should be LIGHT */
+.cursor-invert,
+.cursor-invert * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' fill='%23f5f4ef'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, auto !important;
+}
+
+.cursor-invert a,
+.cursor-invert button,
+.cursor-invert [role="button"] {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' font-weight='bold' fill='%23f5f4ef'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, pointer !important;
+}
+
+/* In dark mode: banner is light, so cursor should be DARK */
+@media (prefers-color-scheme: dark) {
+
+  .cursor-invert,
+  .cursor-invert * {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' fill='%231a1a1a'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, auto !important;
+  }
+
+  .cursor-invert a,
+  .cursor-invert button,
+  .cursor-invert [role="button"] {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ctext x='4' y='18' font-family='serif' font-size='18' font-weight='bold' fill='%231a1a1a'%3Eπ%3C/text%3E%3C/svg%3E") 12 12, pointer !important;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Crimson Pro", "Crimson Text", Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* LaTeX-style typography */
+h1,
+h2,
+h3 {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Monospace for math */
+.math,
+code {
+  font-family: "Computer Modern", "Latin Modern Mono", "Courier New", monospace;
+}
+
+/* Links - simple underline with offset */
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+/* Hard shadow cards */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--foreground);
+  box-shadow: 3px 3px 0 var(--foreground);
+}
+
+.card:hover {
+  box-shadow: 4px 4px 0 var(--foreground);
+}
+
+/* Focus styles */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 16px;
+  font-family: inherit;
+  border: 1px solid var(--foreground);
+  background: var(--card-bg);
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+.btn-primary {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+.btn-primary:hover {
+  background: transparent;
+  color: var(--foreground);
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  font-family: inherit;
+  font-size: 18px;
+  padding: 0.75rem;
+  border: 1px solid var(--foreground);
+  background: transparent;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Black banner */
+.banner {
+  background: var(--foreground);
+  color: var(--background);
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+/* Floating math symbols animation */
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.08;
+  }
+
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+    opacity: 0.12;
+  }
+}
+
+.math-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.math-symbol {
+  position: absolute;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 3rem;
+  opacity: 0.08;
+  animation: float 6s ease-in-out infinite;
+  color: var(--foreground);
+}
+
+/* Textbook-style page - minimal, clean */
+.textbook-page {
+  background: transparent;
+  padding: 0;
+}
+
+/* KaTeX overrides for consistent styling */
+.katex {
+  font-size: 1.1em;
+}
+
+.katex-display {
+  margin: 1rem 0;
 }

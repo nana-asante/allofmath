@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# π All of Math
 
-## Getting Started
+An attempt to compile all existing solved math problems in history.
 
-First, run the development server:
+[![CI](https://github.com/nana-asante/allofmath/actions/workflows/ci.yml/badge.svg)](https://github.com/nana-asante/allofmath/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## What is this?
+
+All of Math is an open-source, community-driven database of math problems spanning all topics and difficulty levels. Problems are stored as structured JSON files, validated by CI, and served through a modern web interface.
+
+**🌐 Live:** [allofmath.org](https://allofmath.org)
+
+## Features
+
+- **Searchable problem database** with full-text search
+- **Difficulty ratings** powered by Elo algorithm and community voting
+- **Solution videos** linked where available
+- **Answer challenges** — disagree with an answer? Submit a challenge that creates a GitHub Issue for review
+- **Open dataset** — all problems are in `data/problems/` as JSON files
+
+## Quick Start
+
+### Prerequisites
+
+- Node.js 20+
+- pnpm 10+
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Clone the repo
+git clone https://github.com/nana-asante/allofmath.git
+cd allofmath
+
+# Install dependencies
+pnpm install
+
+# Set up environment variables
+cp .env.example .env.local
+# Edit .env.local with your Supabase/Upstash credentials
+
+# Run development server
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+allofmath/
+├── app/                  # Next.js App Router pages
+├── api/                  # Shared server utilities
+├── components/           # React components
+├── data/
+│   ├── problems/         # Math problems (JSON files)
+│   └── schema/           # Zod validation schemas
+├── docs/                 # Documentation
+└── supabase/             # Database migrations
+```
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions! The most valuable contribution is **adding math problems**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Adding Problems
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Create a new JSON file in `data/problems/[topic]/`
+2. Follow the [Dataset Rules](docs/DATASET_RULES.md)
+3. Run `pnpm dataset:validate` to check your work
+4. Open a PR!
 
-## Deploy on Vercel
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Problem Format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```json
+{
+  "id": "aom_arithmetic_0001",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "What is 2 + 2?",
+  "answer": { "kind": "number", "value": 4 },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "your-github-username"
+}
+```
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Database:** Supabase (PostgreSQL)
+- **Rate Limiting:** Upstash Redis
+- **Styling:** Tailwind CSS
+- **Hosting:** Vercel
+
+## License
+
+MIT — see [LICENSE](LICENSE)
+
+The problem dataset is licensed per-problem (see each problem's `license` field).
+
+## Links
+
+- [Contributing Guide](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Dataset Rules](docs/DATASET_RULES.md)

@@ -1,0 +1,16 @@
+{
+    "id": "aom_subtraction_0002",
+    "topic": "Arithmetic",
+    "difficulty": 2,
+    "prompt": "15 - 7 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 8,
+        "tolerance": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+}

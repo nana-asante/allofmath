@@ -1,0 +1,16 @@
+{
+    "id": "aom_subtraction_0001",
+    "topic": "Arithmetic",
+    "difficulty": 1,
+    "prompt": "5 - 2 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 3,
+        "tolerance": 0
+    },
+    "status": "verified",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+}

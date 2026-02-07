@@ -1,0 +1,88 @@
+name: Sync Challenges to GitHub Issues
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Every hour
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  sync-challenges:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Fetch pending challenges
+        id: fetch
+        run: |
+          RESPONSE=$(curl -sS "$AOM_URL/api/admin/challenges" \
+            -H "Authorization: Bearer $ADMIN_CRON_SECRET" \
+            -H "Content-Type: application/json")
+          
+          echo "response=$RESPONSE" >> $GITHUB_OUTPUT
+        env:
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
+
+      - name: Create issues for challenges
+        uses: actions/github-script@v7
+        env:
+          CHALLENGES_JSON: ${{ steps.fetch.outputs.response }}
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
+        with:
+          script: |
+            const response = JSON.parse(process.env.CHALLENGES_JSON || '{}');
+            const challenges = response.challenges || [];
+            
+            console.log(`Found ${challenges.length} pending challenges`);
+            
+            for (const c of challenges) {
+              // Create issue
+              const body = `## Answer Challenge
+
+**Problem ID:** \`${c.problem_id}\`
+
+**User's Answer:** ${c.user_answer}
+
+**Expected Answer:** ${c.expected_answer}
+
+**User's Reason:** ${c.reason || 'No reason provided'}
+
+**Submitted:** ${c.created_at}
+
+---
+
+### How to resolve:
+
+1. **If the user is correct** (answer in JSON is wrong):
+   - Update the problem JSON file
+   - Close this issue with comment "accepted"
+   
+2. **If the system is correct** (user made a mistake):
+   - Close this issue with comment "rejected"
+
+The issue status will sync back to the database automatically.`;
+
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `[Challenge] ${c.problem_id}: User answer "${c.user_answer}"`,
+                body: body,
+                labels: ['challenge', 'needs-review']
+              });
+              
+              console.log(`Created issue #${issue.data.number} for challenge ${c.id}`);
+              
+              // Update challenge with issue number
+              await fetch(`${process.env.AOM_URL}/api/admin/challenges`, {
+                method: 'POST',
+                headers: {
+                  'Authorization': `Bearer ${process.env.ADMIN_CRON_SECRET}`,
+                  'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                  challengeId: c.id,
+                  issueNumber: issue.data.number
+                })
+              });
+            }

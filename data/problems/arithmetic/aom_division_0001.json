@@ -1,0 +1,16 @@
+{
+    "id": "aom_division_0001",
+    "topic": "Arithmetic",
+    "difficulty": 3,
+    "prompt": "24 ÷ 6 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 4,
+        "tolerance": 0
+    },
+    "status": "verified",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+}

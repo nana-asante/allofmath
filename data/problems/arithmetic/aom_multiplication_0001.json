@@ -1,0 +1,16 @@
+{
+    "id": "aom_multiplication_0001",
+    "topic": "Arithmetic",
+    "difficulty": 2,
+    "prompt": "3 × 4 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 12,
+        "tolerance": 0
+    },
+    "status": "verified",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+}

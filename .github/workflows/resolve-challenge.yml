@@ -1,0 +1,51 @@
+name: Resolve Challenge on Issue Close
+
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  resolve-challenge:
+    if: contains(github.event.issue.labels.*.name, 'challenge')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine resolution
+        id: resolution
+        run: |
+          # Check the closing comment or issue body for resolution
+          # Default to "rejected" if no specific "accepted" keyword found
+          COMMENTS="${{ github.event.issue.body }} ${{ github.event.issue.title }}"
+          
+          # Check if there's a recent comment with "accepted"
+          if [[ "${{ github.event.issue.state_reason }}" == "completed" ]]; then
+            # We'll check the labels for resolution
+            if echo "${{ toJson(github.event.issue.labels.*.name) }}" | grep -qi "accepted"; then
+              echo "resolution=accepted" >> $GITHUB_OUTPUT
+            else
+              echo "resolution=rejected" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "resolution=rejected" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update challenge status
+        run: |
+          curl -sS -X PATCH "$AOM_URL/api/admin/challenges" \
+            -H "Authorization: Bearer $ADMIN_CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            --data "{\"issueNumber\": ${{ github.event.issue.number }}, \"resolution\": \"${{ steps.resolution.outputs.resolution }}\"}"
+        env:
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
+
+      - name: Add resolution comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const resolution = '${{ steps.resolution.outputs.resolution }}';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `Challenge marked as **${resolution}** in the database.`
+            });

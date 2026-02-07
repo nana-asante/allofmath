@@ -1,0 +1,40 @@
+name: Cron Ratings
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # Every 10 minutes
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  sync-and-recompute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync problems to search index
+        run: |
+          curl -sS -X POST "$AOM_URL/api/admin/sync-problems" \
+            -H "Authorization: Bearer $ADMIN_CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            --data '{}' || echo "Sync problems failed"
+        env:
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
+
+      - name: Sync problem ratings
+        run: |
+          curl -sS -X POST "$AOM_URL/api/admin/sync-problem-ratings" \
+            -H "Authorization: Bearer $ADMIN_CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            --data '{}' || echo "Sync ratings failed"
+        env:
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
+
+      - name: Recompute ratings from votes
+        run: |
+          curl -sS -X POST "$AOM_URL/api/admin/recompute-ratings" \
+            -H "Authorization: Bearer $ADMIN_CRON_SECRET" \
+            -H "Content-Type: application/json" \
+            --data '{}' || echo "Recompute failed"
+        env:
+          AOM_URL: ${{ secrets.AOM_URL }}
+          ADMIN_CRON_SECRET: ${{ secrets.ADMIN_CRON_SECRET }}
