@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10433",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{-2}^{1} (-8x^4 - 7x^3 - 1x^2 + 7x - 8) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -29.1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

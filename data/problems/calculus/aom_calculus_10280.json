@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10280",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→4} (sqrt(x + 8) - sqrt(12))/(x - 4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.1443
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

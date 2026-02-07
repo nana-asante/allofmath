@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10385",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "For $x^2 + y^2 = 25$, compute $dy/dx at (3, 4)$",
+  "answer": {
+    "kind": "number",
+    "value": -0.75
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

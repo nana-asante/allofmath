@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10586",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $10!$ is divided by $11 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9426",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$260 ÷ 4 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 65
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

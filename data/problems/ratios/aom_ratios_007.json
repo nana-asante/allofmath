@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_007",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $x:3 = 4:6$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

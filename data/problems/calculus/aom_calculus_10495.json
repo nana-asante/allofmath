@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10495",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{2} (1/(x + 1)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1.0986
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

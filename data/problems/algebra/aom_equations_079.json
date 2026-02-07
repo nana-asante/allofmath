@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_079",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Solve for x: $2x + 10 = 4x - 2$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

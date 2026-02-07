@@ -68,7 +68,7 @@ We welcome contributions! The most valuable contribution is **adding math proble
 
 ### Adding Problems
 
-1. Create a new JSON file in `data/problems/[topic]/`
+1. Create a new JSON file in `data/problems/[topic]/` OR use the **[Bulk Import Script](docs/CONTRIBUTING.md#adding-problems-in-bulk-new)**
 2. Follow the [Dataset Rules](docs/DATASET_RULES.md)
 3. Run `pnpm dataset:validate` to check your work
 4. Open a PR!

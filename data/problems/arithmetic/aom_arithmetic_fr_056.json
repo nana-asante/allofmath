@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_056",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$4/5 ÷ 2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

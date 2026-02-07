@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10391",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "For $x + y + ln(y) = 0$, compute $dy/dx at (-1, 1)$",
+  "answer": {
+    "kind": "number",
+    "value": -0.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

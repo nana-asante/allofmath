@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10388",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "For $y = x^3 + 2y^2$, compute $dy/dx at (0, 0)$",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

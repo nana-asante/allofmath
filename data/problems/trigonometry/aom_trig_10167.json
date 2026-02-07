@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10167",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "In a right triangle, adjacent = 20 and hypotenuse = 29. Compute tan(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.05
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

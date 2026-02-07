@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9701",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$30% of 90 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 27
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

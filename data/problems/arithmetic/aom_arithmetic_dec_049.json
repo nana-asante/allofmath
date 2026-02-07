@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_049",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$8.8 ÷ 4.4 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

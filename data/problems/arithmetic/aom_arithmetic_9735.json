@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9735",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Decrease 500 by 18% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 410
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_077",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$5.5 + 5.5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 11
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

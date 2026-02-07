@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10086",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "For x^2 + 4x - 12 = 0, find the product of the roots = ?",
+  "answer": {
+    "kind": "number",
+    "value": -12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

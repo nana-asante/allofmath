@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_005",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$1/2 + 3/10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

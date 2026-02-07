@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_032",
+  "topic": "Algebra",
+  "seed_difficulty": 6,
+  "prompt": "Solve for x: $x + 8 = 16$",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10333",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(0)$ for $f(x) = e^x sin(x) (x in radians)$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9382",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$11 - 2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

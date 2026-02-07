@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9731",
+  "topic": "Arithmetic",
+  "seed_difficulty": 9,
+  "prompt": "A price of 120 is increased by 10%: new price = ?",
+  "answer": {
+    "kind": "number",
+    "value": 132
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

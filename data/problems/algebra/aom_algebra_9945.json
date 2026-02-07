@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9945",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 6x^4 - 3x^3 + 6x^2 - 3x + 8$, find $P(2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 106
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

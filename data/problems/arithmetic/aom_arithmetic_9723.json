@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9723",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Decrease 150 by 20% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 120
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

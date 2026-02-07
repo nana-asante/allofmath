@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9449",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$735 ÷ 15 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 49
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

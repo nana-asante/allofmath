@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9705",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$15% of 180 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 27
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

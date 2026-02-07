@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9494",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$360 ÷ 6 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 60
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10264",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→8} (sqrt(x + 11) - sqrt(19))/(x - 8) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.1147
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_088",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A cleaner is diluted 1:4 with water. If you use 100ml of cleaner, how much water do you need?",
+  "answer": {
+    "kind": "number",
+    "value": 400
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9305",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$19 - 8 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 11
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

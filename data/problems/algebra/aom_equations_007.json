@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_007",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $3x - 1 = x + 9$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

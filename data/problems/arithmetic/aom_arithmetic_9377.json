@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9377",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$722 - 603 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 119
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

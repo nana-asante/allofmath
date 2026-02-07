@@ -2,7 +2,7 @@
     "id": "aom_division_0001",
     "topic": "Arithmetic",
     "difficulty": 3,
-    "prompt": "24 ÷ 6 = ?",
+    "prompt": "$24 ÷ 6 = ?$",
     "answer": {
         "kind": "number",
         "value": 4,

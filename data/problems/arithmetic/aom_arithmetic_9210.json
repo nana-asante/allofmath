@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9210",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 + 10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 13
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

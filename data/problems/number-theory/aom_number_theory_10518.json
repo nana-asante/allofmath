@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10518",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find lcm(25, 40) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 200
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

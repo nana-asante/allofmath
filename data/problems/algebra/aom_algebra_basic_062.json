@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_062",
+  "topic": "Algebra",
+  "seed_difficulty": 8,
+  "prompt": "Solve for x: $4x - 1 = 7$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

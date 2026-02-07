@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10267",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $lim_{x→0} (1 - cos(9x))/x^2$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 40.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10138",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "Find the smallest positive solution (in degrees): tan(x) = 1",
+  "answer": {
+    "kind": "number",
+    "value": 45
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

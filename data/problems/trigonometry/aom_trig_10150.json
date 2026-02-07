@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10150",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "For y = 3sin(x), what is the amplitude = ?",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

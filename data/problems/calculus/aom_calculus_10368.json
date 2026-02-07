@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10368",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(0)$ for $f(x) = sec(x) (x in radians)$",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

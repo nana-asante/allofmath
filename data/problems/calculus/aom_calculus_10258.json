@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10258",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $lim_{x→0} (e^{5x} - 1)/x = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

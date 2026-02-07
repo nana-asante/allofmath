@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10113",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "If sin(θ) = 3/5 and θ is acute, compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

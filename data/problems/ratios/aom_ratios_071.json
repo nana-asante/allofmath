@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_071",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $1:2 = 4:x$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

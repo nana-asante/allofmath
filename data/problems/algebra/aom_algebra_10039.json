@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10039",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "Solve for the larger root: $x^2 - 19x + 88 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 11
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

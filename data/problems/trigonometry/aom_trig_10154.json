@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10154",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "For y = 4sin(2x) with x in degrees, what is the period (in degrees) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 180
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

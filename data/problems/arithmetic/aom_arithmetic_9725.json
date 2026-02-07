@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9725",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Decrease 90 by 30% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 63
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

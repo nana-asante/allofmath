@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_042",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $6x = 3(x + 5)$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

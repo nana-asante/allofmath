@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9200",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$2 + 100 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 102
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

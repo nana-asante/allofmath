@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10186",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "Compute $cos(0°) - cos(180°) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

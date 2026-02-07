@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10118",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "If sin(θ) = 7/25 and θ is acute, compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.96
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

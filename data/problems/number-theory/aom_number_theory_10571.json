@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10571",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Compute the sum of positive divisors of $108 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 280
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

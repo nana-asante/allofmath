@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9959",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Find the coefficient of $x^3$ in $P(x) = 7x^4 + 8x^3 - 3x^2 + 8x - 3$",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

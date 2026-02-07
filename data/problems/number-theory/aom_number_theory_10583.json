@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10583",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the smallest positive integer x such that x ≡ 9 (mod 14) and x ≡ 2 (mod 9) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 65
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

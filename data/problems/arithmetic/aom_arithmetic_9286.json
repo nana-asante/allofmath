@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9286",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 + 86 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 89
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

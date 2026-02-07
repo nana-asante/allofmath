@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9727",
+  "topic": "Arithmetic",
+  "seed_difficulty": 9,
+  "prompt": "What percent of 200 is 50 = ?",
+  "answer": {
+    "kind": "number",
+    "value": 25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

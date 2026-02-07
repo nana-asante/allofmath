@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10341",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $f'(1)$ for $f(x) = (x + 1)/x^2$",
+  "answer": {
+    "kind": "number",
+    "value": -3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

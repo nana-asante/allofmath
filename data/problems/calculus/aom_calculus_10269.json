@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10269",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→-4} ((x + 4)(x - 6))/(x + 4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10458",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{1}^{2} (x*e^{2x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 14.1945
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

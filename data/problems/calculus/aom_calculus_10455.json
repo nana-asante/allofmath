@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10455",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{0}^{2} (e^{3x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 134.1425
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

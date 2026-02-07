@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10472",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{1}^{2} (e^{4x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 209.0101
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

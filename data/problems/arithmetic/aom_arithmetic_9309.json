@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9309",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$200 - 64 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 136
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

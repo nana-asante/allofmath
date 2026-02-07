@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10219",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (9x^2-4x+5)/(8x^2+8x-5) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1.125
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

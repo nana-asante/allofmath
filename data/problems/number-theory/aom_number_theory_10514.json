@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10514",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find lcm(45, 60) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 180
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

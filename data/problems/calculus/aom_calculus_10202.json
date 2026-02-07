@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10202",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $lim_{x→0} (e^{1x} - 1)/x = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

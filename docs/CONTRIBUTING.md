@@ -1,180 +1,152 @@
-# Contributing to allofmath
+# Contributing Problems to AllOfMath
 
-Thank you for your interest in contributing to allofmath! This project aims to compile all existing solved math problems in history, and we welcome contributions from everyone.
+Thanks for helping build the world's largest open math problem database! Here's the simplest way to contribute.
 
-## Getting Started
+---
 
-### Prerequisites
+## Before You Start
 
-- Node.js 20+
-- pnpm 10+
-- Git
-
-### Setup
-
-1. Fork the repository on GitHub
-2. Clone your fork:
+1. **Fork** this repository on GitHub
+2. **Clone** your fork:
    ```bash
    git clone https://github.com/YOUR_USERNAME/allofmath.git
    cd allofmath
    ```
-3. Install dependencies:
+3. **Install dependencies**:
    ```bash
    pnpm install
    ```
-4. Run the development server:
-   ```bash
-   pnpm dev
-   ```
 
-## Contributing Problems
+---
 
-The most valuable contribution you can make is adding math problems to our dataset.
+## Add Problems in 4 Steps
 
-### Adding Problems
+### Step 1: Create `import.json` in the project root
 
-1. Create a new JSON file in `data/problems/[topic]/` (e.g., `data/problems/algebra/aom_algebra_0001.json`)
-2. Add problem in JSON format:
-   ```json
-   {"id":"aom_TOPIC_NNNN","topic":"Topic","seed_difficulty":1,"prompt":"Problem text","answer":{"kind":"number","value":42},"status":"community","source":"original","license":"CC0","author":"your-github-username"}
-   ```
-3. Run validation:
-   ```bash
-   pnpm dataset:validate
-   ```
+Create a file called `import.json` in the main project folder with your problems:
 
-   > **Tip:** If you see a "Duplicate ID" error, you can automatically fix it by running:
-   > ```bash
-   > npx tsx scripts/fix-duplicate-ids.ts
-   > ```
-4. Commit and open a PR
+```json
+[
+  {
+    "id": "aom_addition_0002",
+    "topic": "Arithmetic",
+    "seed_difficulty": 2,
+    "prompt": "$3 + 4 = ?$",
+    "answer": {
+      "kind": "number",
+        "value": 7,
+        "tolerance": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "your-github-username",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  }
+]
+```
 
-### Problem ID Format
+> **Note:** Use `https://www.youtube.com/watch?v=jNQXAC9IVRw` as a placeholder video URL until a real solution video exists.
 
-- Pattern: `aom_[topic]_[number]`
-- Example: `aom_algebra_0042`
-- Use lowercase and underscores only
+### Step 2: Import your problems
+
+Run this command **from the project root folder** (where `package.json` is):
+
+```bash
+npx tsx scripts/import-problems.ts import.json
+```
+
+This creates individual problem files in `data/problems/[topic]/`.
+
+### Step 3: Validate the dataset
+
+Run this command **from the project root folder**:
+
+```bash
+pnpm dataset:validate
+```
+
+#### Fixing Errors
+
+**"Duplicate ID" error:**
+```
+Duplicate ID: aom_arithmetic_9001
+```
+Run the auto-fix script and re-validate:
+```bash
+npx tsx scripts/fix-duplicate-ids.ts
+pnpm dataset:validate
+```
+
+**"Duplicate problem / Exact prompt match" error:**
+```
+Duplicate problem detected!
+  File: algebra/aom_algebra_0001.json
+  Matches: algebra/aom_algebra_0042.json
+  (Exact prompt match)
+```
+This means two problems have the same question. You must either:
+- Delete one of the duplicate files, OR  
+- Edit one prompt to be different
+
+Then run `pnpm dataset:validate` again.
+
+### Step 4: Submit a Pull Request
+
+Once validation passes, commit your changes and open a PR!
+
+---
+
+## Problem Format Reference
 
 ### Required Fields
 
-| Field | Description |
+| Field | What to put |
 |-------|-------------|
-| `id` | Unique identifier (see format above) |
-| `topic` | Math topic (e.g., "Arithmetic", "Algebra") |
-| `seed_difficulty` | 1-20 scale (see guide below) |
-| `prompt` | The problem text |
-| `answer` | Object with `kind` and `value` (see formats below) |
-| `status` | Always `"community"` for new submissions |
-| `source` | Where the problem came from |
-| `license` | License (CC0, CC BY 4.0, etc.) |
+| `id` | `aom_[topic]_[number]` (e.g., `aom_algebra_0042`) |
+| `topic` | `Arithmetic`, `Algebra`, `Geometry`, `Calculus`, etc. |
+| `seed_difficulty` | 1-20 (see scale below) |
+| `prompt` | The question (wrap math in `$...$` for LaTeX) |
+| `answer` | `{ "kind": "number", "value": 42 }` |
+| `status` | Always use `"community"` |
+| `source` | `"original"` or where you found it |
+| `license` | `"CC0"` or `"CC BY 4.0"` |
 | `author` | Your GitHub username |
 
-### Difficulty Scale (seed_difficulty)
+### Optional Fields
 
-Rate problems on a 1-20 scale based on expected audience:
+| Field | What to put |
+|-------|-------------|
+| `solution_video_url` | YouTube link (use placeholder if none) |
+| `tolerance` | For decimal answers: `{ "kind": "number", "value": 3.14, "tolerance": 0.01 }` |
 
+### Difficulty Scale
 
-| Level | Grade / Category | Topics / Examples |
-|-------|------------------|-------------------|
-| 1–3 | Elementary | Basic arithmetic: 2+3, 10-4, 3×4 |
-| 4–6 | Middle School | Fractions, decimals, basic algebra |
-| 7–9 | Pre-Algebra | Equations, ratios, percentages |
-| 10–12 | Algebra I | Linear equations, polynomials |
-| 13–15 | Algebra II / Geometry | Quadratics, proofs, trigonometry |
-| 16–18 | Precalculus / Calculus | Limits, derivatives, integrals |
-| 19–20 | Competition / Advanced | Olympiad-style, proofs, number theory |
+| Level | Who it's for |
+|-------|--------------|
+| 1-3 | Elementary: `2+3`, `10-4` |
+| 4-6 | Middle School: fractions, decimals |
+| 7-9 | Pre-Algebra: equations, percentages |
+| 10-12 | Algebra I: linear equations |
+| 13-15 | Algebra II: quadratics, trig |
+| 16-18 | Calculus: derivatives, integrals |
+| 19-20 | Competition: Olympiad-level |
 
-Your initial rating is a "seed" — the community will refine it through voting over time.
+---
 
-### Answer Formats
+## LaTeX in Prompts
 
-Answers use a `kind` field to specify the format:
+Wrap math expressions in dollar signs:
 
-**Numeric answers** (most common):
-```json
-{
-  "answer": {
-    "kind": "number",
-    "value": 42
-  }
-}
-```
+| Type | Example |
+|------|---------|
+| Pure math | `"$1 + 2 = ?$"` |
+| Mixed text | `"Solve for x: $2x + 3 = 7$"` |
+| Fractions | `"$\\frac{1}{2} + \\frac{1}{3} = ?$"` |
+| Exponents | `"$e^{2x} = ?$"` (use braces `{}` for multi-char exponents) |
 
-With tolerance (for decimals/approximations):
-```json
-{
-  "answer": {
-    "kind": "number",
-    "value": 3.14159,
-    "tolerance": 0.001
-  }
-}
-```
-
-**Important:** If you omit `tolerance`, it defaults to `0`, meaning the user must enter the **exact** number. For decimal answers, always specify an appropriate tolerance.
-
-**Exact string answers** (formulas, expressions, text):
-```json
-{
-  "answer": {
-    "kind": "exact",
-    "value": "x^2 + 2x + 1"
-  }
-}
-```
-
-### Problem Status
-
-| Status | Meaning | Who sets it |
-|--------|---------|-------------|
-| `"community"` | New submission, awaiting review | Contributor (always use this) |
-| `"verified"` | Answer confirmed correct by maintainers | Maintainers only |
-
-**Contributors should always set `status: "community"`**. Maintainers will promote to `"verified"` after reviewing the problem.
-
-### Licensing Requirements
-
-- All problems must have explicit licensing
-- Preferred: CC0 (public domain) or CC BY 4.0
-- **No copying from copyrighted textbooks or contests without permission**
-
-See [docs/DATASET_RULES.md](docs/DATASET_RULES.md) for detailed rules.
-
-## Code Contributions
-
-### Before You Start
-
-1. Check existing issues for related work
-2. Open an issue to discuss significant changes
-3. Follow our coding standards (ESLint + TypeScript)
-
-### Pull Request Process
-
-1. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-2. Make your changes
-3. Run all checks:
-   ```bash
-   pnpm lint
-   pnpm typecheck
-   pnpm dataset:validate
-   ```
-4. Commit with a descriptive message
-5. Push and open a PR
-
-### PR Requirements
-
-- [ ] All CI checks pass
-- [ ] Code follows existing patterns
-- [ ] New features include tests (if applicable)
-- [ ] Documentation updated (if applicable)
-
-## Code of Conduct
-
-Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+---
 
 ## Questions?
 
-Open an issue or start a discussion on GitHub!
+Open an issue on GitHub!

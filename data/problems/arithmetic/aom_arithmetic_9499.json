@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9499",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$80 ÷ 16 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

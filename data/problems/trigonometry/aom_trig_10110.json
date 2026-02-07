@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10110",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "In a right triangle, opposite = 3 and hypotenuse = 5. Compute sin(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

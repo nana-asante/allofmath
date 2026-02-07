@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9397",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$145 - 66 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 79
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

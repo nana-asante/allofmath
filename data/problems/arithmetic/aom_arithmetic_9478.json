@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9478",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$306 ÷ 18 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 17
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

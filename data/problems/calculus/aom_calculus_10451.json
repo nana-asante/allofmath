@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10451",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{pi/4} (sin(2x)) dx$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

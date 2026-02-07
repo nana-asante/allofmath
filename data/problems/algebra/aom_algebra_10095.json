@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10095",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "How many real solutions does x^2 + 4x + 5 = 0 have?",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

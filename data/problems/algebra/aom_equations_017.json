@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_017",
+  "topic": "Algebra",
+  "seed_difficulty": 9,
+  "prompt": "Solve for x: $5x - 10 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

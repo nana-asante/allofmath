@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10478",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{1}^{2} (ln(4x + 1)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 2.0746
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

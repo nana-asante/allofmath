@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10423",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{-3}^{0} (-5x^4 - 4x^3 - 5x^2 - 9x + 1) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -197.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

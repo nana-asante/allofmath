@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10208",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→-5} ((x + 5)(x - 2))/(x + 5) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_091",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $x:2 = 3:1$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

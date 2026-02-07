@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_093",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$1 - 1/2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

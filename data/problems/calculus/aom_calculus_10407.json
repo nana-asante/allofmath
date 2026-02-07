@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10407",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{2}^{6} (-7x^4 + 1x^3 + 2x^2 - 1x - 4) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -54718.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

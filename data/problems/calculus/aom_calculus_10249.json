@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10249",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→0} sin(9x)/(5x)$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

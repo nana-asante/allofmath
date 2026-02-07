@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9340",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$14 - 11 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

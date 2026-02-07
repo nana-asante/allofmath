@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10543",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the modular inverse of 8 modulo 15 (smallest positive) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

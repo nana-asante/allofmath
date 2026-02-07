@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_075",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $3x = 30$",
+  "answer": {
+    "kind": "number",
+    "value": 10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

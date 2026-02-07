@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10078",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "If $f(x) = 3x^2 - 12x + 9$, find $f(1) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

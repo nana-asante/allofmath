@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_013",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$3.6 ÷ 0.6 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

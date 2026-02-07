@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10464",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{1}^{3} (ln(3x)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 3.5232
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

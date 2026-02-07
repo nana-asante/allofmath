@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10297",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $lim_{x→0} (1 - cos(4x))/x^2$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

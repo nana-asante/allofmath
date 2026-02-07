@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_067",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Solve for x: $5(x - 1) = 2x + 7$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

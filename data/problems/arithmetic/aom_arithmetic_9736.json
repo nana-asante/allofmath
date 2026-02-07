@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9736",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$6% of 250 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 15
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

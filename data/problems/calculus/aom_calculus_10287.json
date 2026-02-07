@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10287",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (6x^3+6x^2+3)/(7x^3-5x^2+9) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.8571
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

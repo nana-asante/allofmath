@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10532",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $17^23$ is divided by $19 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

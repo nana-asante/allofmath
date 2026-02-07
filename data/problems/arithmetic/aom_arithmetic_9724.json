@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9724",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Increase 64 by 12.5% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 72
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

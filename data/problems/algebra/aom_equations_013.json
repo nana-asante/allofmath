@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_013",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $7x - 4 = 3x + 8$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

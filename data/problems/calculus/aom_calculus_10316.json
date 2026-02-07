@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10316",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(1)$ for $f(x) = (x^2 + 1)^3$",
+  "answer": {
+    "kind": "number",
+    "value": 24
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

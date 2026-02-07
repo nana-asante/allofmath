@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10521",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $3^100$ is divided by $7 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

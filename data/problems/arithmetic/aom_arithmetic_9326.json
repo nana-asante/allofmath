@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9326",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$59 - 10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 49
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

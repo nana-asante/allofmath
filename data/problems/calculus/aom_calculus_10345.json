@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10345",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $f'(0)$ for $f(x) = 1/(x + 3)$",
+  "answer": {
+    "kind": "number",
+    "value": -0.1111
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

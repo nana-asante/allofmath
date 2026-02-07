@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10549",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the modular inverse of 10 modulo 27 (smallest positive) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 19
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

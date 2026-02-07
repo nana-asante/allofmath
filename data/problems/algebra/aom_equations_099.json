@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_099",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $2x = 10 - 3x$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10175",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If tan(θ) = 1.875 and θ is acute, compute sin(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.8824
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

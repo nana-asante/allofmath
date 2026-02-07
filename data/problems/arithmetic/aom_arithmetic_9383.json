@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9383",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$122 - 25 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 97
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

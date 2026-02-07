@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9930",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -3x^3 + 7x^2 + 2x + 7$, find $P(3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 55
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

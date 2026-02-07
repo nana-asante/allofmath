@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10250",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→2} (sqrt(x + 4) - sqrt(6))/(x - 2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.2041
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

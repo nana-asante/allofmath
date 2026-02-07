@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_052",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A mixture uses 1 part cement to 3 parts sand. If you use 5 kg of cement, how much sand do you need?",
+  "answer": {
+    "kind": "number",
+    "value": 15
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

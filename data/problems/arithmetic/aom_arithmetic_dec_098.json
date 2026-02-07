@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_098",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$5.2 - 2.2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

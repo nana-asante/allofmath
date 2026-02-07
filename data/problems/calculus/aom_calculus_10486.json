@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10486",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{0}^{1} (sqrt(x)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.6667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

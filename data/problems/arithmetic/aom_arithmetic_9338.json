@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9338",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$162 - 127 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 35
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

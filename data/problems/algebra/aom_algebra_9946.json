@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9946",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Find the coefficient of $x^3$ in $P(x) = -2x^3 + 7x^2 + 4x + 7$",
+  "answer": {
+    "kind": "number",
+    "value": -2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

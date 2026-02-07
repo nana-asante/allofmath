@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10232",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $lim_{x→0} (1 + 6x)^(5/x) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 403.4288
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

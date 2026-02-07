@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10496",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{3} (2x/(x^2 + 2)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1.7047
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

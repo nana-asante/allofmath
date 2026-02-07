@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9988",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the degree of $P(x) = -7x^3 - x^2 - 9x + 6 $?",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

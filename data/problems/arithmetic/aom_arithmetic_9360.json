@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9360",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$6 - 2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

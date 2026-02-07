@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10213",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (2x^3+7x^2-3)/(7x^3-7x^2-1) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.2857
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

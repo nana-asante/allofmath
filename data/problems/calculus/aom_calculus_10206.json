@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10206",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (7x^3-7x^2-9)/(5x^3+2x^2-3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

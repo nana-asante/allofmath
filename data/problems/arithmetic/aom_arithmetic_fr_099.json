@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_099",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$1/10 + 2/10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

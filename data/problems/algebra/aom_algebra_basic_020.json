@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_020",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $3x + 2 = 11$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10424",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{0}^{1} (7x^4 - 8x^3 - 8x^2 + 4x + 2) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -0.8667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

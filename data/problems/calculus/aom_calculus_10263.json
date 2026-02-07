@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10263",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→0} sin(6x)/(2x)$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10465",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{0}^{2} (e^{x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6.3891
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

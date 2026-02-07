@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10117",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "If tan(θ) = 5/12 and θ is acute, compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.9231
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

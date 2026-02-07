@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9470",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$624 ÷ 16 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 39
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

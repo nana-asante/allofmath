@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10222",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (4x^3-1x^2+2)/(6x^3+3x^2-3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.6667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

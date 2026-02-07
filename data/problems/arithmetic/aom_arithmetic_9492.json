@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9492",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$918 ÷ 17 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 54
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

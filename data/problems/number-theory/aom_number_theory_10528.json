@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10528",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $9^99$ is divided by $10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

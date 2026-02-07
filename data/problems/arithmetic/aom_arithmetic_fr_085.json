@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_085",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$1/2 ÷ 0.5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

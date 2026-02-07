@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10511",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find lcm(14, 35) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 70
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

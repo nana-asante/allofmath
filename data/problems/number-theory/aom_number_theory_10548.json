@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10548",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the modular inverse of 4 modulo 21 (smallest positive) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 16
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

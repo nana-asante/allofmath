@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10192",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "In [0°, 360°), find the smallest solution: tan(x) = 1",
+  "answer": {
+    "kind": "number",
+    "value": 45
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10582",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the smallest positive integer x such that x ≡ 7 (mod 10) and x ≡ 3 (mod 7) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 63
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

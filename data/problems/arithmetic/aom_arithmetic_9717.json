@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9717",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$18% of 350 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 63
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

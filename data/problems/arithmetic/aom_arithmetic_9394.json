@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9394",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$20 - 17 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

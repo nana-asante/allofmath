@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10248",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (8x^3+2x^2-7)/(2x^3-7x^2-2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

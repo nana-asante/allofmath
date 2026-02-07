@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_008",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "The ratio of apples to oranges is 2:3. If there are 10 apples, how many oranges are there?",
+  "answer": {
+    "kind": "number",
+    "value": 15
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

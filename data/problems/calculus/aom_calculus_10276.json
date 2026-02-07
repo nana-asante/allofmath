@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10276",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (1x^3-9x^2+4)/(8x^3+2x^2-2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.125
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

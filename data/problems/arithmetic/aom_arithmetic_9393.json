@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9393",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$797 - 153 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 644
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

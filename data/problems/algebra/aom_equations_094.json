@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_094",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Solve for x: $6x - 10 = 2x + 10$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

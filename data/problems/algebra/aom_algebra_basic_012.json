@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_012",
+  "topic": "Algebra",
+  "seed_difficulty": 6,
+  "prompt": "Solve for x: $6x = 36$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10577",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the smallest positive integer x such that x ≡ 4 (mod 9) and x ≡ 5 (mod 8) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 77
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

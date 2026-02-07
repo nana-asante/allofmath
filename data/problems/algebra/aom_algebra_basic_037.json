@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_037",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $x / 3 = 3$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

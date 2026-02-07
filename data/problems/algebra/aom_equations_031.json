@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_031",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "Solve for x: $4(x + 2) = 24$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

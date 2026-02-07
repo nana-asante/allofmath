@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_052",
+  "topic": "Algebra",
+  "seed_difficulty": 8,
+  "prompt": "Solve for x: $x / 4 + 1 = 2$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

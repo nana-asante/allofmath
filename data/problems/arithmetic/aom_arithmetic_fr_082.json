@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_082",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$1/4 × 8 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

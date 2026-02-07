@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_076",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$1/10 of 100 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

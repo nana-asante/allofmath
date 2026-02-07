@@ -2,7 +2,7 @@
     "id": "aom_addition_0005",
     "topic": "Arithmetic",
     "difficulty": 5,
-    "prompt": "156 + 289 = ?",
+    "prompt": "$156 + 289 = ?$",
     "answer": {
         "kind": "number",
         "value": 445,

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_082",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$0.2 × 0.1 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.02
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

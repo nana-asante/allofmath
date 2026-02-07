@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10533",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $19^29$ is divided by $23 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 15
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

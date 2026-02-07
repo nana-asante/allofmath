@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9993",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -9x^4 + 9x^3 - 2x^2 + 8x + 6$, find $P(-2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -262
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

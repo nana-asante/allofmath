@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_012",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A recipe uses 2 cups of flour for every 1 cup of sugar. If you use 4 cups of flour, how much sugar do you need?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

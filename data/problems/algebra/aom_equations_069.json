@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_069",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $3x - 2 = x + 6$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

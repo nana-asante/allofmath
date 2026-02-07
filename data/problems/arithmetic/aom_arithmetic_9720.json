@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9720",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Increase 120 by 15% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 138
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

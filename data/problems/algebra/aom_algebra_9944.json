@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9944",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -3x^4 + 9x^3 + 7x^2 - 6x + 9$, find $P(0) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

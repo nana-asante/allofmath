@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9439",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$728 ÷ 8 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 91
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

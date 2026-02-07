@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9960",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the leading coefficient of $P(x) = 9x^3 - 4x^2 + 8x - 8 $?",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10143",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If sin(θ) = 0.6 and θ is acute, compute sec(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

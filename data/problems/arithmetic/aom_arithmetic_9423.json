@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9423",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$276 ÷ 12 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 23
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

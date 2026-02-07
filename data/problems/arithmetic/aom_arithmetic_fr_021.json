@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_021",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$4/5 + 1/10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

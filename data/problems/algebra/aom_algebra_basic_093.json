@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_093",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $x / 7 = 1$",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

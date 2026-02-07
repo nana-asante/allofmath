@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10147",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "Compute: sin(90°) - cos(0°) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

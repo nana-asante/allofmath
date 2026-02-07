@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9921",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 7x^3 - 7x^2 + 2x - 9$, find $P(-3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -279
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

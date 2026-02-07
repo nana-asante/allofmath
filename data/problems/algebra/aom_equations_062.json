@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_062",
+  "topic": "Algebra",
+  "seed_difficulty": 9,
+  "prompt": "Solve for x: $3x + 4x = 14$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

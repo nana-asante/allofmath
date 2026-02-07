@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_075",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$7.7 - 7.0 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

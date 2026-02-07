@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9081",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$1 + 82 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 83
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10591",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find the smallest prime greater than 500 = ?",
+  "answer": {
+    "kind": "number",
+    "value": 503
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

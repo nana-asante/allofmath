@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10362",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(1)$ for $f(x) = e^{x^2}$",
+  "answer": {
+    "kind": "number",
+    "value": 5.4366
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

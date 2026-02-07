@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9241",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 + 41 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 44
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_048",
+  "topic": "Algebra",
+  "seed_difficulty": 8,
+  "prompt": "Solve for x: $2x - 8 = 2$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

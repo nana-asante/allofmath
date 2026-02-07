@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10224",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→10} (sqrt(x + 12) - sqrt(22))/(x - 10) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.1065
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

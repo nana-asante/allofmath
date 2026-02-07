@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9742",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Increase 360 by 15% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 414
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

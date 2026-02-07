@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_011",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $3:4 = 9:x$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

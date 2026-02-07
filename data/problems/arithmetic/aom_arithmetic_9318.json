@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9318",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$98 - 52 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 46
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

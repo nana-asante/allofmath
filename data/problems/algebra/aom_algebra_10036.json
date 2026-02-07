@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10036",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "Solve for the larger root: $x^2 - 20x + 96 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

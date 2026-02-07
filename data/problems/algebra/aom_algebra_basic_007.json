@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_007",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $4x = 16$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

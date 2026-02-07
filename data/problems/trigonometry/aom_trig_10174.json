@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10174",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If cos(θ) = 0.96 and θ is acute, compute sec(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.0417
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

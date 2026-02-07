@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9745",
+  "topic": "Arithmetic",
+  "seed_difficulty": 9,
+  "prompt": "A bill is 64, with 8% tax: total = ?",
+  "answer": {
+    "kind": "number",
+    "value": 69.12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

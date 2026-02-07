@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9715",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$5% of 280 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 14
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

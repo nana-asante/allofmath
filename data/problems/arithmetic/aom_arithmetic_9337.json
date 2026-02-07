@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9337",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$696 - 452 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 244
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

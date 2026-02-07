@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10317",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(1)$ for $f(x) = (x^3 + 2x)^2$",
+  "answer": {
+    "kind": "number",
+    "value": 30
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

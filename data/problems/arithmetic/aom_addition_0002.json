@@ -2,7 +2,7 @@
     "id": "aom_addition_0002",
     "topic": "Arithmetic",
     "difficulty": 2,
-    "prompt": "3 + 4 = ?",
+    "prompt": "$3 + 4 = ?$",
     "answer": {
         "kind": "number",
         "value": 7,

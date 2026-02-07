@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10272",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→7} (sqrt(x + 2) - sqrt(9))/(x - 7) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.1667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

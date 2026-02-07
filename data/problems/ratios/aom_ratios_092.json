@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_092",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "If 2 batteries last 4 hours, how long do 4 batteries last (assuming parallel usage multiplies duration)?",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

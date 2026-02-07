@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_047",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$2/3 of 12 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

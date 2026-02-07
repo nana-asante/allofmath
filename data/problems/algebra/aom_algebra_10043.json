@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10043",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "Find the discriminant of $3x^2 - 12x + 7 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 60
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

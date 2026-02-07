@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10351",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(0)$ for $f(x) = sqrt(5x + 4)$",
+  "answer": {
+    "kind": "number",
+    "value": 1.25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

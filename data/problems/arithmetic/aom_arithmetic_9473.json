@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9473",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$378 ÷ 6 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 63
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

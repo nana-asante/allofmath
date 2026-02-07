@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_010",
+  "topic": "Ratios",
+  "seed_difficulty": 8,
+  "prompt": "Simplify the ratio 20:30.",
+  "answer": {
+    "kind": "number",
+    "value": 0.6666666667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_060",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$6.2 - 1.1 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 5.1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

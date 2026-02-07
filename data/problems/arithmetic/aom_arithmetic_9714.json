@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9714",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$75% of 96 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 72
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10004",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "Solve for the larger root: $2x^2 - 8x + 6 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_090",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$1/4 + 2/4 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.75
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

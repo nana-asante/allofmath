@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10180",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "Compute $sin(180°) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

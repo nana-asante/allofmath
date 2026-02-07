@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_092",
+  "topic": "Algebra",
+  "seed_difficulty": 9,
+  "prompt": "Solve for x: $5x = 4x + 6$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

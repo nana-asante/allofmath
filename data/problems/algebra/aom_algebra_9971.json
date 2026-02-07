@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9971",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 4x^4 + 3x^3 + 8x^2 - 4x + 7$, find $P(-1) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 20
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

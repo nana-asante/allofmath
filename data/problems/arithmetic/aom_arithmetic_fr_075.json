@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_075",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$4/5 - 3/5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

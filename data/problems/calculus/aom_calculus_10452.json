@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10452",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{-pi/2}^{pi/2} (cos(x)) dx$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

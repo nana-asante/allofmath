@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9962",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -3x^3 + 7x^2 + 5x + 3$, find $P(-4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 167
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

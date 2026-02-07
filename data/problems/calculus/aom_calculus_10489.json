@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10489",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{2} (2x/(x^2 + 5)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.5878
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

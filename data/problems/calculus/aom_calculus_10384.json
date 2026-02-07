@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10384",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $f'(1)$ for $f(x) = e^{2x} ln(x)$",
+  "answer": {
+    "kind": "number",
+    "value": 7.3891
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

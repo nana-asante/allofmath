@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9401",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$874 ÷ 19 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 46
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

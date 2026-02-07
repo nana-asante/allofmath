@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10082",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "If $f(x) = x^2 + 2x - 35$, find $f(5) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

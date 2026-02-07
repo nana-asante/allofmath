@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10350",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(0)$ for $f(x) = (3x + 1)^4$",
+  "answer": {
+    "kind": "number",
+    "value": 12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

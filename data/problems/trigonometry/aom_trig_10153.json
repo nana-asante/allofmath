@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10153",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "For y = cos(5x) with x in degrees, what is the period (in degrees) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 72
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

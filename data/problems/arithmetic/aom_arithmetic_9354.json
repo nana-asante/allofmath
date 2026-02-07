@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9354",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$136 - 5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 131
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

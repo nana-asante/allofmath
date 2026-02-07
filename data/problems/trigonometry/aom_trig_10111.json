@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10111",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "In a right triangle, adjacent = 4 and hypotenuse = 5. Compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

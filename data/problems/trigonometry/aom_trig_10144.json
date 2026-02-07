@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10144",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If cos(θ) = 0.8 and θ is acute, compute csc(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.6667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

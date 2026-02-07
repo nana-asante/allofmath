@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9313",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$856 - 630 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 226
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

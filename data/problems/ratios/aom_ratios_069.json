@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_069",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $5:x = 1:2$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

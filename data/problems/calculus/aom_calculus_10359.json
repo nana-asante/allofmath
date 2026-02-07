@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10359",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(1)$ for $f(x) = 1/(1 + x^2)$",
+  "answer": {
+    "kind": "number",
+    "value": -0.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

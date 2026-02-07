@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_064",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "The ratio of teachers to students is 1:20. If there are 5 teachers, how many students are there?",
+  "answer": {
+    "kind": "number",
+    "value": 100
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

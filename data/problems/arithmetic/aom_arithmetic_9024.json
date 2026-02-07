@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9024",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$1 + 25 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 26
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

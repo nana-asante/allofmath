@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10029",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "Solve for the larger root: $x^2 - 18x + 81 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

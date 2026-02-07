@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_021",
+  "topic": "Algebra",
+  "seed_difficulty": 6,
+  "prompt": "Solve for x: $x - 5 = 5$",
+  "answer": {
+    "kind": "number",
+    "value": 10
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_036",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "Solve for x: $4(x - 3) = 16$",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

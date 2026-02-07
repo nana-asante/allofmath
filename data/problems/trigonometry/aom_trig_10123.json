@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10123",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "Compute $arccos(0) in degrees = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 90
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

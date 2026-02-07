@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9902",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -4x^5 + 4x^4 + 2x^3 - 4x^2 + 9x - 5$, find $P(-2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 251
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

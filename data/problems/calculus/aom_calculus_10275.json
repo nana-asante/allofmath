@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10275",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→5^-} |x - 5|/(x - 5) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

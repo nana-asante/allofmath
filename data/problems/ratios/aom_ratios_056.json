@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_056",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "The ratio of boys to girls in a club is 2:3. If there are 20 members in total, how many are boys?",
+  "answer": {
+    "kind": "number",
+    "value": 8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

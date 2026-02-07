@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9923",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 2x^4 + 8x^3 + 4x^2 - 2x - 5$, find $P(2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 123
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

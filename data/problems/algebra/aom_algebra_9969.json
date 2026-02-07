@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9969",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -7x^4 + 4x^3 + 5x^2 + 3x + 7$, find $P(1) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

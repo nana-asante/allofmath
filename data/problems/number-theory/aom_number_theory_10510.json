@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10510",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find lcm(12, 18) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 36
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

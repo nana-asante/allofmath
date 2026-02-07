@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_024",
+  "topic": "Algebra",
+  "seed_difficulty": 7,
+  "prompt": "Solve for x: $x / 4 = 4$",
+  "answer": {
+    "kind": "number",
+    "value": 16
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

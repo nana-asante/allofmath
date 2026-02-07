@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10112",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "In a right triangle, opposite = 3 and adjacent = 4. Compute tan(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.75
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

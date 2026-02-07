@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10088",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "For 3x^2 + 9x + 6 = 0, find the product of the roots = ?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

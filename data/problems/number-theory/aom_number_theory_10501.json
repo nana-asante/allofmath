@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10501",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find gcd(96, 144) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 48
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

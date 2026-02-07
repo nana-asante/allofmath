@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9216",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 + 16 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 19
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

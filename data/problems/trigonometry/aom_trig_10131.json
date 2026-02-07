@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10131",
+  "topic": "Trigonometry",
+  "seed_difficulty": 13,
+  "prompt": "Find the smallest positive solution (in degrees): cos(x) = 0",
+  "answer": {
+    "kind": "number",
+    "value": 90
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

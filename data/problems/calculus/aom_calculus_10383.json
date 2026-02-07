@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10383",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(e)$ for $f(x) = (ln(x))^2$",
+  "answer": {
+    "kind": "number",
+    "value": 0.7358
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

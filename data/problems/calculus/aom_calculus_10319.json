@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10319",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(0)$ for $f(x) = (x^2 - 4x + 1)^2$",
+  "answer": {
+    "kind": "number",
+    "value": -8
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

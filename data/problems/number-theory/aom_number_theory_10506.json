@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10506",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find gcd(48, 180) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 12
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

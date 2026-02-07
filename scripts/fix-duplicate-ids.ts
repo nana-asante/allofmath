@@ -2,13 +2,15 @@ import fs from "node:fs";
 import path from "node:path";
 import { globSync } from "glob";
 
+import { Problem } from "../data/schema/problem.schema";
+
 const problemsDir = path.join(process.cwd(), "data/problems");
 
 interface ProblemFile {
     relPath: string;
     fullPath: string;
     id: string;
-    content: any;
+    content: Problem;
 }
 
 function loadProblems(): ProblemFile[] {

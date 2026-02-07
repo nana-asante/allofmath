@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10164",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "In a right triangle, adjacent = 12 and opposite = 5. Compute sin(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.3846
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10389",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "For $sin(y) + x = 0$, compute $dy/dx at (0, 0) (radians)$",
+  "answer": {
+    "kind": "number",
+    "value": -1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

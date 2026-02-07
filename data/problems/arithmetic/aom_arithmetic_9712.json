@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9712",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$7% of 500 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 35
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

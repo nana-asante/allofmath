@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9710",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$12.5% of 160 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 20
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

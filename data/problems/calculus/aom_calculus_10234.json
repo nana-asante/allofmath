@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10234",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $lim_{x→0} ln(1 + 1x)/x = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

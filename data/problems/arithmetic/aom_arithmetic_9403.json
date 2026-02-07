@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9403",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$940 ÷ 20 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 47
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9983",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 3x^4 - 9x^3 - 2x^2 + 5x - 8$, find $P(2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -22
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

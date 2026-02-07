@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9924",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -2x^4 + 7x^3 + 8x^2 - 8x - 7$, find $P(4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 249
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9033",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$1 + 34 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 35
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

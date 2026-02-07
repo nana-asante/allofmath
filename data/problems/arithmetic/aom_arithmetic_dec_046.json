@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_046",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$0.4 × 0.4 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.16
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

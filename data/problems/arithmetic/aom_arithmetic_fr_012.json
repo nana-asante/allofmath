@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_012",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$12 × 3/4 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

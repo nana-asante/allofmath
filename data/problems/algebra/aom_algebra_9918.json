@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9918",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = -5x^4 + 5x^3 + 5x^2 + 8x + 4$, find $P(3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -152
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

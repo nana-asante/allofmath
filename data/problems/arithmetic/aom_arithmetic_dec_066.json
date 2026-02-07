@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_066",
+  "topic": "Arithmetic",
+  "seed_difficulty": 4,
+  "prompt": "$5.1 + 0.9 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

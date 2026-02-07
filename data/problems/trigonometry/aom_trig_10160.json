@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10160",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "A ladder makes a 30° angle with the ground and reaches 10 ft up a wall. Find the ladder length (ft) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 20
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

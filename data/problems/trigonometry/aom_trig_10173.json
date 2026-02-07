@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10173",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If sin(θ) = 0.28 and θ is acute, compute csc(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 3.5714
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

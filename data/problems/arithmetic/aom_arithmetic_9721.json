@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9721",
+  "topic": "Arithmetic",
+  "seed_difficulty": 8,
+  "prompt": "Decrease 200 by 12% = ?",
+  "answer": {
+    "kind": "number",
+    "value": 176
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

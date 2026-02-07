@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_076",
+  "topic": "Algebra",
+  "seed_difficulty": 8,
+  "prompt": "Solve for x: $5x - 3 = 12$",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_085",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$5.5 ÷ 1.1 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

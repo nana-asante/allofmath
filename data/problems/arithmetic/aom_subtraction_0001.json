@@ -2,7 +2,7 @@
     "id": "aom_subtraction_0001",
     "topic": "Arithmetic",
     "difficulty": 1,
-    "prompt": "5 - 2 = ?",
+    "prompt": "$5 - 2 = ?$",
     "answer": {
         "kind": "number",
         "value": 3,

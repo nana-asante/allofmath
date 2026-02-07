@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9485",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$266 ÷ 19 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 14
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

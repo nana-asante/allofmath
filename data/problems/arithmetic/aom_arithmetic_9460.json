@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9460",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$940 ÷ 10 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 94
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10560",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Compute $φ(18) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

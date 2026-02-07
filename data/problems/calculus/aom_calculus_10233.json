@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10233",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→12} (sqrt(x + 7) - sqrt(19))/(x - 12) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.1147
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

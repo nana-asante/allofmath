@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10522",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the remainder when $5^123$ is divided by $19 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10436",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{pi/2} (cos(x)^2) dx$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 1.5708
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

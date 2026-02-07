@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9958",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 6x^3 - 8x^2 - 2x + 6$, find $P(3) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 60
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

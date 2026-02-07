@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10587",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find the last digit of 7^2025 = ?",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

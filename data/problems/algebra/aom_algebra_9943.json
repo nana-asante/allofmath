@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9943",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the leading coefficient of $P(x) = -7x^5 + 6x^4 + 8x^3 - 7x^2 - 2x - 4 $?",
+  "answer": {
+    "kind": "number",
+    "value": -7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

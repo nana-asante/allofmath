@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10162",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "In a right triangle, hypotenuse = 25 and adjacent = 24. Compute sin(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.28
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

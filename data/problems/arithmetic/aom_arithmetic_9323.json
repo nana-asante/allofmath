@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9323",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$179 - 56 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 123
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

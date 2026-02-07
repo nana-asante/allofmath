@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9706",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$35% of 140 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 49
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

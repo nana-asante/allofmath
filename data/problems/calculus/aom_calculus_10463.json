@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10463",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{0}^{1} (x*e^{3x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 3.0174
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

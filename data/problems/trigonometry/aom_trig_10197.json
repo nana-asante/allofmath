@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10197",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "In [0°, 360°), find the smallest solution: sin(x) = -1",
+  "answer": {
+    "kind": "number",
+    "value": 270
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

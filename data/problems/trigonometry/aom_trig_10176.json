@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10176",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "If tan(θ) = 0.4167 and θ is acute, compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.9231
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

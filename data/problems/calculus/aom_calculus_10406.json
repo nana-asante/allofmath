@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10406",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{1}^{4} (-2x^3 - 8x^2 - 9x - 2) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -428.25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

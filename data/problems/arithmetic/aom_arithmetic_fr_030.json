@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_030",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$4/5 × 5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

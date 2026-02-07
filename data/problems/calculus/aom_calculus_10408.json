@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10408",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{-2}^{0} (-8x^2 + 2x - 5) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -33.3333
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

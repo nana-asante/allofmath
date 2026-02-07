@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_004",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A class has 10 boys and 15 girls. What is the ratio of boys to girls? (Express as decimal)",
+  "answer": {
+    "kind": "number",
+    "value": 0.6666666667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

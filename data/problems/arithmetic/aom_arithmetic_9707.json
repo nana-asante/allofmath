@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9707",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$22% of 150 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 33
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

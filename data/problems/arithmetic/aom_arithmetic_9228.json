@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9228",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 + 28 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 31
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

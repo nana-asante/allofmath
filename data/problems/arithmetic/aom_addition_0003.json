@@ -2,7 +2,7 @@
     "id": "aom_addition_0003",
     "topic": "Arithmetic",
     "difficulty": 3,
-    "prompt": "12 + 15 = ?",
+    "prompt": "$12 + 15 = ?$",
     "answer": {
         "kind": "number",
         "value": 27,

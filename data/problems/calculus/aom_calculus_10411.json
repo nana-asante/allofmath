@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10411",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{-3}^{2} (3x^4 + 6x^3 - 2x^2 - 3x + 5) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 301.5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

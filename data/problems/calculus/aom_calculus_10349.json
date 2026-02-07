@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10349",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $f'(pi/4)$ for $f(x) = tan(x)/x (x in radians)$",
+  "answer": {
+    "kind": "number",
+    "value": 0.9253
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

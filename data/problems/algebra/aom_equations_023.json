@@ -1,0 +1,14 @@
+{
+  "id": "aom_equations_023",
+  "topic": "Algebra",
+  "seed_difficulty": 9,
+  "prompt": "Solve for x: $2(x - 5) = 4$",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

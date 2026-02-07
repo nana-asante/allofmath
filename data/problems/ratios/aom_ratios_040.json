@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_040",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A car travels 60 miles in 1 hour. How many miles does it travel in 3 hours?",
+  "answer": {
+    "kind": "number",
+    "value": 180
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

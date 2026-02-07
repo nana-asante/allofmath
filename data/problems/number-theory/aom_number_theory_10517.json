@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10517",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find lcm(36, 48) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 144
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

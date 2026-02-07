@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10380",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $f'(10)$ for $f(x) = log_10(x)$",
+  "answer": {
+    "kind": "number",
+    "value": 0.0434
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

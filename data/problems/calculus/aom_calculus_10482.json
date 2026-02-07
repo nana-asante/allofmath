@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10482",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{0}^{9} (sqrt(x)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 18
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

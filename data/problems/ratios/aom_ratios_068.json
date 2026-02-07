@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_068",
+  "topic": "Ratios",
+  "seed_difficulty": 9,
+  "prompt": "A juice blend is 1 part orange to 1 part pineapple. If you have 2 liters of orange juice, how much pineapple juice do you need?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9934",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the constant term of $P(x) = 4x^3 + 9x^2 - 9x + 5 $?",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

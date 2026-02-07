@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9933",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "If $P(x) = -9x^5 - 2x^4 - 9x^3 + 9x^2 + 4x + 4$, find $P(4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -10024
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

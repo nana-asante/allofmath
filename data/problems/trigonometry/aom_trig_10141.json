@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10141",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "Simplify: 1 - cos^2(θ) = ? (in terms of sin)",
+  "answer": {
+    "kind": "number",
+    "value": 0
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

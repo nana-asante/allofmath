@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10556",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Compute $φ(10) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

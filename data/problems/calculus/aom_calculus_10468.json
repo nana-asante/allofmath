@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10468",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{0}^{2} (x*e^{4x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 200.5356
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

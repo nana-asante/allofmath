@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_fr_043",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$0.8 - 2/5 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

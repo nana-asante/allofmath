@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10266",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→∞} (3x^1+5)/(9x^1-2) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.3333
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

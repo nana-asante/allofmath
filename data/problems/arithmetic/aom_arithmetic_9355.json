@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9355",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$3 - 1 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

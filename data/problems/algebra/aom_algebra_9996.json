@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9996",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the degree of $P(x) = -9x^5 + 4x^4 + 6x^3 - 8x^2 - 8x + 2 $?",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

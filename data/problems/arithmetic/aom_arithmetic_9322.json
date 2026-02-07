@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9322",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$18 - 1 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 17
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

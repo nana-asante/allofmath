@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10085",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "For x^2 - 7x + 10 = 0, find the sum of the roots = ?",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

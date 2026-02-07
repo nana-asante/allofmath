@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_095",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $3:x = 3:7$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 7
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

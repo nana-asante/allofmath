@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9329",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$635 - 97 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 538
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

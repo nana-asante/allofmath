@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9708",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$8% of 400 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 32
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

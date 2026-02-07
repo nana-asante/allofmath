@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9949",
+  "topic": "Algebra",
+  "seed_difficulty": 10,
+  "prompt": "What is the degree of $P(x) = 8x^4 + 7x^3 - 5x^2 + 7x + 8 $?",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

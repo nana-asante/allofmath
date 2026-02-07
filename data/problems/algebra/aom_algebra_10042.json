@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10042",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "Find the discriminant of $2x^2 + 3x - 5 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 49
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

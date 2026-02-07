@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10056",
+  "topic": "Algebra",
+  "seed_difficulty": 12,
+  "prompt": "Find the discriminant of $x^2 - x + 1 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": -3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -2,7 +2,7 @@
     "id": "aom_addition_0004",
     "topic": "Arithmetic",
     "difficulty": 4,
-    "prompt": "47 + 38 = ?",
+    "prompt": "$47 + 38 = ?$",
     "answer": {
         "kind": "number",
         "value": 85,

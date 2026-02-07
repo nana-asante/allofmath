@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9316",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$919 - 134 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 785
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

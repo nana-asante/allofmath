@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9718",
+  "topic": "Arithmetic",
+  "seed_difficulty": 7,
+  "prompt": "$64% of 125 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 80
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_036",
+  "topic": "Algebra",
+  "seed_difficulty": 9,
+  "prompt": "Solve for x: $5(x - 1) = 15$",
+  "answer": {
+    "kind": "number",
+    "value": 4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10457",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{0}^{1} (e^{4x}) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 13.3995
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

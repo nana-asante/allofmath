@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10552",
+  "topic": "Number Theory",
+  "seed_difficulty": 20,
+  "prompt": "Find the smallest nonnegative x such that 9x ≡ 6 (mod 35) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 34
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

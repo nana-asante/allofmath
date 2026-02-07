@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10203",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→0} sin(1x)/(5x)$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

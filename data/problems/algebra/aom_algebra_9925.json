@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_9925",
+  "topic": "Algebra",
+  "seed_difficulty": 11,
+  "prompt": "If $P(x) = 4x^3 - 7x^2 + 4x - 9$, find $P(-4) = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -389
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

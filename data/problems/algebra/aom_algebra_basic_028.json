@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_basic_028",
+  "topic": "Algebra",
+  "seed_difficulty": 6,
+  "prompt": "Solve for x: $x - 1 = 0$",
+  "answer": {
+    "kind": "number",
+    "value": 1
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10165",
+  "topic": "Trigonometry",
+  "seed_difficulty": 14,
+  "prompt": "In a right triangle, adjacent = 9 and opposite = 40. Compute cos(θ) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.2195
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

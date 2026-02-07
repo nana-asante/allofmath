@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10405",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{0}^{4} (-4x^3 + 1x^2 - 6x + 6) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -90.6667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

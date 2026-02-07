@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10442",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $∫_{0}^{pi/2} (cos(3x)) dx$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 0.3333
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

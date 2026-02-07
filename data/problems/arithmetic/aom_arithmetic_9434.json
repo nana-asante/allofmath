@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9434",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$264 ÷ 6 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 44
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

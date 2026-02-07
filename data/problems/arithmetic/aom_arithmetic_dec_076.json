@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_076",
+  "topic": "Arithmetic",
+  "seed_difficulty": 6,
+  "prompt": "$3.2 × 2 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 6.4
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

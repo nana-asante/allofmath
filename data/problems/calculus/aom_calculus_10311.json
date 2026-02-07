@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10311",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $f'(5)$ for $f(x) = x^3/3$",
+  "answer": {
+    "kind": "number",
+    "value": 25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

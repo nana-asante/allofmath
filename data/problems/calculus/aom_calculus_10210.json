@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10210",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $lim_{x→0} sin(8x)/(3x)$ (x in radians) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 2.6667
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

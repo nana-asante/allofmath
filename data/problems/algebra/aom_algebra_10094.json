@@ -1,0 +1,14 @@
+{
+  "id": "aom_algebra_10094",
+  "topic": "Algebra",
+  "seed_difficulty": 13,
+  "prompt": "For 9x^2 - 27x + 18 = 0, find the sum of the roots = ?",
+  "answer": {
+    "kind": "number",
+    "value": 3
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

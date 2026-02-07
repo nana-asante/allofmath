@@ -1,0 +1,14 @@
+{
+  "id": "aom_ratios_041",
+  "topic": "Ratios",
+  "seed_difficulty": 7,
+  "prompt": "If $1:x = 5:25$, find $x$.",
+  "answer": {
+    "kind": "number",
+    "value": 5
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

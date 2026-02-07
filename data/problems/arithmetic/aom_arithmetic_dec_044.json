@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_dec_044",
+  "topic": "Arithmetic",
+  "seed_difficulty": 5,
+  "prompt": "$1.8 - 0.9 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 0.9
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

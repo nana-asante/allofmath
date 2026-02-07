@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10343",
+  "topic": "Calculus",
+  "seed_difficulty": 17,
+  "prompt": "Compute $f'(pi/4)$ for $f(x) = cos(x)/sin(x) (x in radians)$",
+  "answer": {
+    "kind": "number",
+    "value": -2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

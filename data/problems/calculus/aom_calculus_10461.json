@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10461",
+  "topic": "Calculus",
+  "seed_difficulty": 18,
+  "prompt": "Compute $∫_{1}^{4} (ln(2x + 1)) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 4.9043
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_number_theory_10509",
+  "topic": "Number Theory",
+  "seed_difficulty": 19,
+  "prompt": "Find gcd(420, 630) = ?",
+  "answer": {
+    "kind": "number",
+    "value": 210
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

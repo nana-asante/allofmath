@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10308",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $f'(16)$ for $f(x) = x^(3/2)$",
+  "answer": {
+    "kind": "number",
+    "value": 6
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aom_arithmetic_9163",
+  "topic": "Arithmetic",
+  "seed_difficulty": 1,
+  "prompt": "$2 + 63 = ?$",
+  "answer": {
+    "kind": "number",
+    "value": 65
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

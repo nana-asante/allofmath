@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10419",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $∫_{0}^{1} (9x^3 - 7x^2 - 8x - 2) dx = ?$",
+  "answer": {
+    "kind": "number",
+    "value": -5.9167
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

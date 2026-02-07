@@ -1,0 +1,14 @@
+{
+  "id": "aom_trig_10198",
+  "topic": "Trigonometry",
+  "seed_difficulty": 15,
+  "prompt": "How many solutions are there in [0°, 360°) to sin(x) = 0 ?",
+  "answer": {
+    "kind": "number",
+    "value": 2
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}

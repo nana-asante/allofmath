@@ -1,0 +1,14 @@
+{
+  "id": "aom_calculus_10307",
+  "topic": "Calculus",
+  "seed_difficulty": 16,
+  "prompt": "Compute $f'(-2)$ for $f(x) = 1/x$",
+  "answer": {
+    "kind": "number",
+    "value": -0.25
+  },
+  "status": "community",
+  "source": "original",
+  "license": "CC0",
+  "author": "nana-asante"
+}
