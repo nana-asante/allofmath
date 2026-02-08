@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_084",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "The ratio of green to yellow peppers is 1:3. If there are 3 green peppers, how many yellow peppers are there?",
-  "answer": {
-    "kind": "number",
-    "value": 9
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_084",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "The ratio of green to yellow peppers is 1:3. If there are 3 green peppers, how many yellow peppers are there?",
+    "answer": {
+        "kind": "number",
+        "value": 9
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

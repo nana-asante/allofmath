@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10074",
-  "topic": "Algebra",
-  "seed_difficulty": 13,
-  "prompt": "Find the x-coordinate of $the vertex of y = x^2 - 14x + 20$",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10074",
+    "topic": "Algebra",
+    "seed_difficulty": 13,
+    "prompt": "Find the x-coordinate of $the vertex of y = x^2 - 14x + 20$",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

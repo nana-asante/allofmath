@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_066",
-  "topic": "Ratios",
-  "seed_difficulty": 8,
-  "prompt": "Simplify the ratio 12:4.",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_066",
+    "topic": "Ratios",
+    "seed_difficulty": 8,
+    "prompt": "Simplify the ratio 12:4.",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

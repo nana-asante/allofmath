@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_basic_014",
-  "topic": "Algebra",
-  "seed_difficulty": 8,
-  "prompt": "Solve for x: $4x - 2 = 14$",
-  "answer": {
-    "kind": "number",
-    "value": 4
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_basic_014",
+    "topic": "Algebra",
+    "seed_difficulty": 8,
+    "prompt": "Solve for x: $4x - 2 = 14$",
+    "answer": {
+        "kind": "number",
+        "value": 4
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

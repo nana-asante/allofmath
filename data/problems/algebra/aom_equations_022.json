@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_022",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "Solve for x: $5x = 3x + 12$",
-  "answer": {
-    "kind": "number",
-    "value": 6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_022",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "Solve for x: $5x = 3x + 12$",
+    "answer": {
+        "kind": "number",
+        "value": 6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

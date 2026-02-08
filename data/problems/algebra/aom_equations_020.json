@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_020",
-  "topic": "Algebra",
-  "seed_difficulty": 9,
-  "prompt": "Solve for x: $6x + 2 = 20$",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_020",
+    "topic": "Algebra",
+    "seed_difficulty": 9,
+    "prompt": "Solve for x: $6x + 2 = 20$",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

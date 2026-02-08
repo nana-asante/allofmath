@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9907",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "What is the constant term of $P(x) = -4x^2 - 2x - 6 $?",
-  "answer": {
-    "kind": "number",
-    "value": -6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9907",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "What is the constant term of $P(x) = -4x^2 - 2x - 6 $?",
+    "answer": {
+        "kind": "number",
+        "value": -6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9979",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "Find the coefficient of $x^2$ in $P(x) = 3x^3 + 8x^2 - 8x + 4$",
-  "answer": {
-    "kind": "number",
-    "value": 8
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9979",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "Find the coefficient of $x^2$ in $P(x) = 3x^3 + 8x^2 - 8x + 4$",
+    "answer": {
+        "kind": "number",
+        "value": 8
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

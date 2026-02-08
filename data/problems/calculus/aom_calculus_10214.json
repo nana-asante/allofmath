@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10214",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→9} (sqrt(x + 4) - sqrt(13))/(x - 9) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.1387
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10214",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→9} (sqrt(x + 4) - sqrt(13))/(x - 9) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.1387
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

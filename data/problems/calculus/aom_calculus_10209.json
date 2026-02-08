@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10209",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→3} (sqrt(x + 2) - sqrt(5))/(x - 3) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.2236
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10209",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→3} (sqrt(x + 2) - sqrt(5))/(x - 3) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.2236
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

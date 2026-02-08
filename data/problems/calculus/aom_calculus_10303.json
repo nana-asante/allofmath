@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10303",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $f'(4)$ for $f(x) = 3x^2 - 8x + 1$",
-  "answer": {
-    "kind": "number",
-    "value": 16
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10303",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $f'(4)$ for $f(x) = 3x^2 - 8x + 1$",
+    "answer": {
+        "kind": "number",
+        "value": 16
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

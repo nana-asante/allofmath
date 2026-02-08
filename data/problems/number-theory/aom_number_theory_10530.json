@@ -1,14 +1,15 @@
 {
-  "id": "aom_number_theory_10530",
-  "topic": "Number Theory",
-  "seed_difficulty": 20,
-  "prompt": "Find the remainder when $8^123$ is divided by $17 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_number_theory_10530",
+    "topic": "Number Theory",
+    "seed_difficulty": 20,
+    "prompt": "Find the remainder when $8^123$ is divided by $17 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

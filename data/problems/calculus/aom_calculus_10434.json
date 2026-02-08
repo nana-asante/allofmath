@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10434",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{3}^{7} (3x^1 - 1) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 20
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10434",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{3}^{7} (3x^1 - 1) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 20
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

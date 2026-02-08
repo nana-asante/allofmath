@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10179",
-  "topic": "Trigonometry",
-  "seed_difficulty": 15,
-  "prompt": "If sin(θ) = 0.96 and θ is acute, compute tan(θ) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 3.4286
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10179",
+    "topic": "Trigonometry",
+    "seed_difficulty": 15,
+    "prompt": "If sin(θ) = 0.96 and θ is acute, compute tan(θ) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 3.4286
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

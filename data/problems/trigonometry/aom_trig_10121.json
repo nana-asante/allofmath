@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10121",
-  "topic": "Trigonometry",
-  "seed_difficulty": 13,
-  "prompt": "Compute $arccos(0.5) in degrees = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 60
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10121",
+    "topic": "Trigonometry",
+    "seed_difficulty": 13,
+    "prompt": "Compute $arccos(0.5) in degrees = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 60
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

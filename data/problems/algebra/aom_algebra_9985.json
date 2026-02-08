@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9985",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = -6x^3 - 2x^2 - 4x + 9$, find $P(-1) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 17
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9985",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = -6x^3 - 2x^2 - 4x + 9$, find $P(-1) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 17
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

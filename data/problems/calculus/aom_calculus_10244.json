@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10244",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→11} (sqrt(x + 5) - sqrt(16))/(x - 11) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.125
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10244",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→11} (sqrt(x + 5) - sqrt(16))/(x - 11) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.125
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

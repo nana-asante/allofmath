@@ -1,14 +1,15 @@
 {
-  "id": "aom_number_theory_10569",
-  "topic": "Number Theory",
-  "seed_difficulty": 19,
-  "prompt": "How many positive divisors does $96$ have? = ?",
-  "answer": {
-    "kind": "number",
-    "value": 12
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_number_theory_10569",
+    "topic": "Number Theory",
+    "seed_difficulty": 19,
+    "prompt": "How many positive divisors does $96$ have? = ?",
+    "answer": {
+        "kind": "number",
+        "value": 12
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

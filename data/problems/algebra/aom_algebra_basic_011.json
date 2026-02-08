@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_basic_011",
-  "topic": "Algebra",
-  "seed_difficulty": 8,
-  "prompt": "Solve for x: $x / 3 + 2 = 5$",
-  "answer": {
-    "kind": "number",
-    "value": 9
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_basic_011",
+    "topic": "Algebra",
+    "seed_difficulty": 8,
+    "prompt": "Solve for x: $x / 3 + 2 = 5$",
+    "answer": {
+        "kind": "number",
+        "value": 9
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

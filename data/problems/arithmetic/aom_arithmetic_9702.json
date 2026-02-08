@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9702",
-  "topic": "Arithmetic",
-  "seed_difficulty": 7,
-  "prompt": "$12% of 250 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 30
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9702",
+    "topic": "Arithmetic",
+    "seed_difficulty": 7,
+    "prompt": "$12% of 250 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 30
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

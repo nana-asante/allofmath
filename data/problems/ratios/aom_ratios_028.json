@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_028",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "A bag contains 2 red marbles for every 3 blue marbles. If there are 15 blue marbles, how many red ones are there?",
-  "answer": {
-    "kind": "number",
-    "value": 10
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_028",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "A bag contains 2 red marbles for every 3 blue marbles. If there are 15 blue marbles, how many red ones are there?",
+    "answer": {
+        "kind": "number",
+        "value": 10
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

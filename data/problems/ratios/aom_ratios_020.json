@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_020",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "A map scale is 1:100. If two cities are 5 cm apart on the map, how far are they in reality (in cm)?",
-  "answer": {
-    "kind": "number",
-    "value": 500
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_020",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "A map scale is 1:100. If two cities are 5 cm apart on the map, how far are they in reality (in cm)?",
+    "answer": {
+        "kind": "number",
+        "value": 500
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10057",
-  "topic": "Algebra",
-  "seed_difficulty": 12,
-  "prompt": "Find the discriminant of $2x^2 + 9x + 9 = 0$",
-  "answer": {
-    "kind": "number",
-    "value": 9
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10057",
+    "topic": "Algebra",
+    "seed_difficulty": 12,
+    "prompt": "Find the discriminant of $2x^2 + 9x + 9 = 0$",
+    "answer": {
+        "kind": "number",
+        "value": 9
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

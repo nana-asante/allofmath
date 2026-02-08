@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10416",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{-2}^{0} (7x^4 - 2x^3 + 2x^2 - 6x + 2) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 47.7333
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10416",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{-2}^{0} (7x^4 - 2x^3 + 2x^2 - 6x + 2) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 47.7333
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

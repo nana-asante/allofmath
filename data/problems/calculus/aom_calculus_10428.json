@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10428",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{2}^{3} (8x^4 + 1x^3 + 1x^2 + 7x + 2) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 202.3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10428",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{2}^{3} (8x^4 + 1x^3 + 1x^2 + 7x + 2) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 202.3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

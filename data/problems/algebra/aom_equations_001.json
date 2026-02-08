@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_001",
-  "topic": "Algebra",
-  "seed_difficulty": 9,
-  "prompt": "Solve for x: $2x + 3 = x + 8$",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_001",
+    "topic": "Algebra",
+    "seed_difficulty": 9,
+    "prompt": "Solve for x: $2x + 3 = x + 8$",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

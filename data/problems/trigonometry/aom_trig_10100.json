@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10100",
-  "topic": "Trigonometry",
-  "seed_difficulty": 13,
-  "prompt": "Compute $sin(30°) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10100",
+    "topic": "Trigonometry",
+    "seed_difficulty": 13,
+    "prompt": "Compute $sin(30°) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

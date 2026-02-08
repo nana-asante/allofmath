@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_012",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "Solve for x: $2x + 1 = 11 - 3x$",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_012",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "Solve for x: $2x + 1 = 11 - 3x$",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

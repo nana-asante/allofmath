@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_024",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "The ratio of cats to dogs is 3:2. If there are 12 dogs, how many cats are there?",
-  "answer": {
-    "kind": "number",
-    "value": 18
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_024",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "The ratio of cats to dogs is 3:2. If there are 12 dogs, how many cats are there?",
+    "answer": {
+        "kind": "number",
+        "value": 18
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

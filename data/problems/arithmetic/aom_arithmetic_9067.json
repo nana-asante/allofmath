@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9067",
-  "topic": "Arithmetic",
-  "seed_difficulty": 1,
-  "prompt": "$1 + 68 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 69
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9067",
+    "topic": "Arithmetic",
+    "seed_difficulty": 1,
+    "prompt": "$1 + 68 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 69
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

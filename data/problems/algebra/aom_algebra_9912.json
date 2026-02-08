@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9912",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "What is the degree of $P(x) = -2x^3 - 5x^2 + 4x - 8 $?",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9912",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "What is the degree of $P(x) = -2x^3 - 5x^2 + 4x - 8 $?",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

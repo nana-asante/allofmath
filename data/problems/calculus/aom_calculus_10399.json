@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10399",
-  "topic": "Calculus",
-  "seed_difficulty": 18,
-  "prompt": "Compute $f'(0.6)$ for $f(x) = arcsin(x) (radians)$",
-  "answer": {
-    "kind": "number",
-    "value": 1.25
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10399",
+    "topic": "Calculus",
+    "seed_difficulty": 18,
+    "prompt": "Compute $f'(0.6)$ for $f(x) = arcsin(x) (radians)$",
+    "answer": {
+        "kind": "number",
+        "value": 1.25
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10172",
-  "topic": "Trigonometry",
-  "seed_difficulty": 15,
-  "prompt": "If tan(θ) = 4/3 and θ is acute, compute cos(θ) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 0.6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10172",
+    "topic": "Trigonometry",
+    "seed_difficulty": 15,
+    "prompt": "If tan(θ) = 4/3 and θ is acute, compute cos(θ) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 0.6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

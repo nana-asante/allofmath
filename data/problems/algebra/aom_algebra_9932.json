@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9932",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "What is the leading coefficient of $P(x) = 7x^5 - 2x^4 + 8x^3 - 5x^2 - 7x + 1 $?",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9932",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "What is the leading coefficient of $P(x) = 7x^5 - 2x^4 + 8x^3 - 5x^2 - 7x + 1 $?",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

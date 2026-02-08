@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10438",
-  "topic": "Calculus",
-  "seed_difficulty": 17,
-  "prompt": "Compute $∫_{0}^{pi} (sin(x)) dx$ (x in radians) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10438",
+    "topic": "Calculus",
+    "seed_difficulty": 17,
+    "prompt": "Compute $∫_{0}^{pi} (sin(x)) dx$ (x in radians) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

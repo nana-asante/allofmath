@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_036",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "If 3 pencils cost $1.50, how much do 5 pencils cost?",
-  "answer": {
-    "kind": "number",
-    "value": 2.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_036",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "If 3 pencils cost $1.50, how much do 5 pencils cost?",
+    "answer": {
+        "kind": "number",
+        "value": 2.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9956",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "What is the degree of $P(x) = -7x^4 - 8x^3 + 4x^2 - 4x - 7 $?",
-  "answer": {
-    "kind": "number",
-    "value": 4
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9956",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "What is the degree of $P(x) = -7x^4 - 8x^3 + 4x^2 - 4x - 7 $?",
+    "answer": {
+        "kind": "number",
+        "value": 4
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

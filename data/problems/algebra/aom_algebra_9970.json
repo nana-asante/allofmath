@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9970",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "What is the degree of $P(x) = -4x^5 - 8x^4 + 8x^3 - 5x^2 - 4x - 2 $?",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9970",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "What is the degree of $P(x) = -4x^5 - 8x^4 + 8x^3 - 5x^2 - 4x - 2 $?",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

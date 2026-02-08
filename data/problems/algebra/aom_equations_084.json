@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_084",
-  "topic": "Algebra",
-  "seed_difficulty": 10,
-  "prompt": "Solve for x: $5x = 3x + 10$",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_084",
+    "topic": "Algebra",
+    "seed_difficulty": 10,
+    "prompt": "Solve for x: $5x = 3x + 10$",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

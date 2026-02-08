@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_059",
-  "topic": "Ratios",
-  "seed_difficulty": 7,
-  "prompt": "If $4:2 = x:1$, find $x$.",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_059",
+    "topic": "Ratios",
+    "seed_difficulty": 7,
+    "prompt": "If $4:2 = x:1$, find $x$.",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_basic_051",
-  "topic": "Algebra",
-  "seed_difficulty": 7,
-  "prompt": "Solve for x: $7x = 49$",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_basic_051",
+    "topic": "Algebra",
+    "seed_difficulty": 7,
+    "prompt": "Solve for x: $7x = 49$",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

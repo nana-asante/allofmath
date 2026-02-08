@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_003",
-  "topic": "Ratios",
-  "seed_difficulty": 7,
-  "prompt": "If $2:x = 4:10$, find $x$.",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_003",
+    "topic": "Ratios",
+    "seed_difficulty": 7,
+    "prompt": "If $2:x = 4:10$, find $x$.",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

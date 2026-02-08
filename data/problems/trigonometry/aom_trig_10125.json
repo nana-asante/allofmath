@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10125",
-  "topic": "Trigonometry",
-  "seed_difficulty": 13,
-  "prompt": "Compute $arctan(0) in degrees = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10125",
+    "topic": "Trigonometry",
+    "seed_difficulty": 13,
+    "prompt": "Compute $arctan(0) in degrees = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

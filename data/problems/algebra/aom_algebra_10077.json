@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10077",
-  "topic": "Algebra",
-  "seed_difficulty": 12,
-  "prompt": "If $f(x) = x^2 + 6x + 8$, find $f(-2) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10077",
+    "topic": "Algebra",
+    "seed_difficulty": 12,
+    "prompt": "If $f(x) = x^2 + 6x + 8$, find $f(-2) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

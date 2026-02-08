@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10306",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $f'(9)$ for $f(x) = sqrt(x)$",
-  "answer": {
-    "kind": "number",
-    "value": 0.1667
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10306",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $f'(9)$ for $f(x) = sqrt(x)$",
+    "answer": {
+        "kind": "number",
+        "value": 0.1667
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

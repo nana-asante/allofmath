@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10467",
-  "topic": "Calculus",
-  "seed_difficulty": 18,
-  "prompt": "Compute $∫_{0}^{1} (e^{5x}) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 29.4826
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10467",
+    "topic": "Calculus",
+    "seed_difficulty": 18,
+    "prompt": "Compute $∫_{0}^{1} (e^{5x}) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 29.4826
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

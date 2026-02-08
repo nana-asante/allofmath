@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_009",
-  "topic": "Ratios",
-  "seed_difficulty": 7,
-  "prompt": "If $1:x = 2:8$, find $x$.",
-  "answer": {
-    "kind": "number",
-    "value": 4
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_009",
+    "topic": "Ratios",
+    "seed_difficulty": 7,
+    "prompt": "If $1:x = 2:8$, find $x$.",
+    "answer": {
+        "kind": "number",
+        "value": 4
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

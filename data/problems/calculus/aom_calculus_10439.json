@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10439",
-  "topic": "Calculus",
-  "seed_difficulty": 17,
-  "prompt": "Compute $∫_{0}^{pi/4} (sin(x)^2) dx$ (x in radians) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 0.3927
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10439",
+    "topic": "Calculus",
+    "seed_difficulty": 17,
+    "prompt": "Compute $∫_{0}^{pi/4} (sin(x)^2) dx$ (x in radians) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 0.3927
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10188",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "Compute $sin(30°) / cos(60°) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 1
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10188",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "Compute $sin(30°) / cos(60°) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 1
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

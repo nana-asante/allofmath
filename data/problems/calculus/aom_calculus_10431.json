@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10431",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{-3}^{2} (4x^2 + 5x + 3) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 52.9167
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10431",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{-3}^{2} (4x^2 + 5x + 3) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 52.9167
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

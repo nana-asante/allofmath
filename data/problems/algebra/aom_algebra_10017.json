@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10017",
-  "topic": "Algebra",
-  "seed_difficulty": 13,
-  "prompt": "Solve for the larger root: $x^2 - 13x + 42 = 0$",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10017",
+    "topic": "Algebra",
+    "seed_difficulty": 13,
+    "prompt": "Solve for the larger root: $x^2 - 13x + 42 = 0$",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

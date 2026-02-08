@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10290",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→∞} (5x^1+1)/(9x^1-5) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.5556
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10290",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→∞} (5x^1+1)/(9x^1-5) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.5556
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

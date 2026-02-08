@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10155",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "For y = 0.5cos(4x) with x in degrees, what is the amplitude = ?",
-  "answer": {
-    "kind": "number",
-    "value": 0.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10155",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "For y = 0.5cos(4x) with x in degrees, what is the amplitude = ?",
+    "answer": {
+        "kind": "number",
+        "value": 0.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

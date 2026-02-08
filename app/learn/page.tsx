@@ -81,8 +81,25 @@ function renderMathSafe(input: string): string {
     }
 }
 
+/**
+ * Render text with inline math.
+ * - Parses $...$ delimiters and renders content inside as LaTeX
+ * - Text outside delimiters is escaped for safety
+ */
 function MathInline({ text, className }: { text: string; className?: string }) {
-    const html = useMemo(() => renderMathSafe(text), [text]);
+    const html = useMemo(() => {
+        // Replace $...$ with rendered KaTeX, escape everything else
+        return text.replace(/\$([^$]+)\$|([^$]+)/g, (match, mathExpr, plainText) => {
+            if (mathExpr !== undefined) {
+                // This is a $...$ block - render as LaTeX
+                return renderMathSafe(mathExpr);
+            } else if (plainText !== undefined) {
+                // This is plain text - escape it
+                return escapeHtml(plainText);
+            }
+            return match;
+        });
+    }, [text]);
     return <span className={className} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 

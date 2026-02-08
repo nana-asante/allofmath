@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10242",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→∞} (4x^2+2x+6)/(6x^2+1x+2) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.6667
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10242",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→∞} (4x^2+2x+6)/(6x^2+1x+2) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.6667
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

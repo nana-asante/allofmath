@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_032",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "The ratio of length to width of a rectangle is 2:1. If the width is 5 cm, what is the length?",
-  "answer": {
-    "kind": "number",
-    "value": 10
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_032",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "The ratio of length to width of a rectangle is 2:1. If the width is 5 cm, what is the length?",
+    "answer": {
+        "kind": "number",
+        "value": 10
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

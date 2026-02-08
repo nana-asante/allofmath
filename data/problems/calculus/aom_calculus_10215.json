@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10215",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→0} sin(8x)/(2x)$ (x in radians) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 4
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10215",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→0} sin(8x)/(2x)$ (x in radians) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 4
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

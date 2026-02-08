@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_044",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "The ratio of water to syrup is 5:1. If you have 2 cups of syrup, how many cups of water do you need?",
-  "answer": {
-    "kind": "number",
-    "value": 10
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_044",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "The ratio of water to syrup is 5:1. If you have 2 cups of syrup, how many cups of water do you need?",
+    "answer": {
+        "kind": "number",
+        "value": 10
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

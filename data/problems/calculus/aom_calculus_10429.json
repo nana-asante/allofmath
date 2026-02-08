@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10429",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{-1}^{4} (-6x^2 + 4x + 9) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -37.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10429",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{-1}^{4} (-6x^2 + 4x + 9) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -37.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

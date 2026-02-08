@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10133",
-  "topic": "Trigonometry",
-  "seed_difficulty": 13,
-  "prompt": "Find one solution in [0°, 360°): sin(x) = 1",
-  "answer": {
-    "kind": "number",
-    "value": 90
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10133",
+    "topic": "Trigonometry",
+    "seed_difficulty": 13,
+    "prompt": "Find one solution in [0°, 360°): sin(x) = 1",
+    "answer": {
+        "kind": "number",
+        "value": 90
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

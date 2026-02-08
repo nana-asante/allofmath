@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_dec_029",
-  "topic": "Arithmetic",
-  "seed_difficulty": 5,
-  "prompt": "$6.3 ÷ 3 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 2.1
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_dec_029",
+    "topic": "Arithmetic",
+    "seed_difficulty": 5,
+    "prompt": "$6.3 ÷ 3 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 2.1
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

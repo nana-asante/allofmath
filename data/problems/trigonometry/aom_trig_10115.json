@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10115",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "If sin(θ) = 5/13 and θ is acute, compute tan(θ) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 0.4167
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10115",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "If sin(θ) = 5/13 and θ is acute, compute tan(θ) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 0.4167
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

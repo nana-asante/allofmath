@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_fr_045",
-  "topic": "Arithmetic",
-  "seed_difficulty": 5,
-  "prompt": "$3/4 - 0.25 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_fr_045",
+    "topic": "Arithmetic",
+    "seed_difficulty": 5,
+    "prompt": "$3/4 - 0.25 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

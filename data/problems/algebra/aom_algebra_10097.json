@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10097",
-  "topic": "Algebra",
-  "seed_difficulty": 12,
-  "prompt": "How many real solutions does 2x^2 - 3x - 2 = 0 have?",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10097",
+    "topic": "Algebra",
+    "seed_difficulty": 12,
+    "prompt": "How many real solutions does 2x^2 - 3x - 2 = 0 have?",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

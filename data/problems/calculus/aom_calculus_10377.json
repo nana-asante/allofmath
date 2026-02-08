@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10377",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $f'(4)$ for $f(x) = ln(x)$",
-  "answer": {
-    "kind": "number",
-    "value": 0.25
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10377",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $f'(4)$ for $f(x) = ln(x)$",
+    "answer": {
+        "kind": "number",
+        "value": 0.25
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10059",
-  "topic": "Algebra",
-  "seed_difficulty": 12,
-  "prompt": "Find the discriminant of $8x^2 + 4x - 3 = 0$",
-  "answer": {
-    "kind": "number",
-    "value": 112
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10059",
+    "topic": "Algebra",
+    "seed_difficulty": 12,
+    "prompt": "Find the discriminant of $8x^2 + 4x - 3 = 0$",
+    "answer": {
+        "kind": "number",
+        "value": 112
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

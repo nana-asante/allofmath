@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9922",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "Find the coefficient of $x^5$ in $P(x) = 6x^5 + 8x^4 + 7x^3 + 2x^2 - 8x + 4$",
-  "answer": {
-    "kind": "number",
-    "value": 6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9922",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "Find the coefficient of $x^5$ in $P(x) = 6x^5 + 8x^4 + 7x^3 + 2x^2 - 8x + 4$",
+    "answer": {
+        "kind": "number",
+        "value": 6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10092",
-  "topic": "Algebra",
-  "seed_difficulty": 13,
-  "prompt": "For 6x^2 - 12x + 3 = 0, find the sum of the roots = ?",
-  "answer": {
-    "kind": "number",
-    "value": 2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10092",
+    "topic": "Algebra",
+    "seed_difficulty": 13,
+    "prompt": "For 6x^2 - 12x + 3 = 0, find the sum of the roots = ?",
+    "answer": {
+        "kind": "number",
+        "value": 2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

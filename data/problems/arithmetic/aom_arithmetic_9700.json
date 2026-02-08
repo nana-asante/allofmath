@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9700",
-  "topic": "Arithmetic",
-  "seed_difficulty": 7,
-  "prompt": "$25% of 80 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 20
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9700",
+    "topic": "Arithmetic",
+    "seed_difficulty": 7,
+    "prompt": "$25% of 80 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 20
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

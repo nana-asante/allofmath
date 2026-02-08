@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10157",
-  "topic": "Trigonometry",
-  "seed_difficulty": 15,
-  "prompt": "For y = -3cos(12x) with x in degrees, what is the period (in degrees) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 30
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10157",
+    "topic": "Trigonometry",
+    "seed_difficulty": 15,
+    "prompt": "For y = -3cos(12x) with x in degrees, what is the period (in degrees) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 30
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

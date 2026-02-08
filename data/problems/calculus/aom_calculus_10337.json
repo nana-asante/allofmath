@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10337",
-  "topic": "Calculus",
-  "seed_difficulty": 18,
-  "prompt": "Compute $f'(pi)$ for $f(x) = sin(x)/x (x in radians)$",
-  "answer": {
-    "kind": "number",
-    "value": -0.3183
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10337",
+    "topic": "Calculus",
+    "seed_difficulty": 18,
+    "prompt": "Compute $f'(pi)$ for $f(x) = sin(x)/x (x in radians)$",
+    "answer": {
+        "kind": "number",
+        "value": -0.3183
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

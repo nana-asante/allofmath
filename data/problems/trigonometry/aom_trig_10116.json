@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10116",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "If tan(θ) = 3/4 and θ is acute, compute sin(θ) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 0.6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10116",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "If tan(θ) = 3/4 and θ is acute, compute sin(θ) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 0.6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

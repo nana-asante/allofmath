@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_dec_065",
-  "topic": "Arithmetic",
-  "seed_difficulty": 5,
-  "prompt": "$2.5 × 4 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 10
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_dec_065",
+    "topic": "Arithmetic",
+    "seed_difficulty": 5,
+    "prompt": "$2.5 × 4 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 10
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

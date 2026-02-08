@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10137",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "Find the smallest positive solution (in degrees): sin(x) = 0.5",
-  "answer": {
-    "kind": "number",
-    "value": 30
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10137",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "Find the smallest positive solution (in degrees): sin(x) = 0.5",
+    "answer": {
+        "kind": "number",
+        "value": 30
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

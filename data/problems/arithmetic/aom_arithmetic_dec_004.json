@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_dec_004",
-  "topic": "Arithmetic",
-  "seed_difficulty": 6,
-  "prompt": "$0.6 ÷ 0.2 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_dec_004",
+    "topic": "Arithmetic",
+    "seed_difficulty": 6,
+    "prompt": "$0.6 ÷ 0.2 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

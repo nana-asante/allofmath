@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9900",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = -5x^3 - 6x^2 - 6x - 9$, find $P(-5) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 496
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9900",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = -5x^3 - 6x^2 - 6x - 9$, find $P(-5) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 496
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_080",
-  "topic": "Ratios",
-  "seed_difficulty": 9,
-  "prompt": "If 3 tickets cost $15, how much do 2 tickets cost?",
-  "answer": {
-    "kind": "number",
-    "value": 10
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_080",
+    "topic": "Ratios",
+    "seed_difficulty": 9,
+    "prompt": "If 3 tickets cost $15, how much do 2 tickets cost?",
+    "answer": {
+        "kind": "number",
+        "value": 10
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

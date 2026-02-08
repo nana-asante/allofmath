@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_063",
-  "topic": "Ratios",
-  "seed_difficulty": 7,
-  "prompt": "If $1:x = 3:15$, find $x$.",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_063",
+    "topic": "Ratios",
+    "seed_difficulty": 7,
+    "prompt": "If $1:x = 3:15$, find $x$.",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

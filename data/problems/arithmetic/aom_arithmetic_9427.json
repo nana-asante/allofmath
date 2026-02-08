@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9427",
-  "topic": "Arithmetic",
-  "seed_difficulty": 1,
-  "prompt": "$204 ÷ 4 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 51
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9427",
+    "topic": "Arithmetic",
+    "seed_difficulty": 1,
+    "prompt": "$204 ÷ 4 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 51
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10400",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{2}^{5} (-9) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -27
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10400",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{2}^{5} (-9) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -27
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

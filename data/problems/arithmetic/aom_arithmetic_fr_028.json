@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_fr_028",
-  "topic": "Arithmetic",
-  "seed_difficulty": 4,
-  "prompt": "$5/8 - 1/8 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_fr_028",
+    "topic": "Arithmetic",
+    "seed_difficulty": 4,
+    "prompt": "$5/8 - 1/8 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

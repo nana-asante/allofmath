@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10054",
-  "topic": "Algebra",
-  "seed_difficulty": 12,
-  "prompt": "Find the discriminant of $9x^2 + 12x + 4 = 0$",
-  "answer": {
-    "kind": "number",
-    "value": 0
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10054",
+    "topic": "Algebra",
+    "seed_difficulty": 12,
+    "prompt": "Find the discriminant of $9x^2 + 12x + 4 = 0$",
+    "answer": {
+        "kind": "number",
+        "value": 0
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_ratios_093",
-  "topic": "Ratios",
-  "seed_difficulty": 7,
-  "prompt": "If $1:5 = x:15$, find $x$.",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_ratios_093",
+    "topic": "Ratios",
+    "seed_difficulty": 7,
+    "prompt": "If $1:5 = x:15$, find $x$.",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

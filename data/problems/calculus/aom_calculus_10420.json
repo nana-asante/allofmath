@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10420",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{2}^{4} (-8x^3 + 1x^2 - 1x - 4) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -221.3333
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10420",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{2}^{4} (-8x^3 + 1x^2 - 1x - 4) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -221.3333
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

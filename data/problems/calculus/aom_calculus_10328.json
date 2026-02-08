@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10328",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $f'(2)$ for $f(x) = (x^2 - 1)(x^2 + 1)$",
-  "answer": {
-    "kind": "number",
-    "value": 32
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10328",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $f'(2)$ for $f(x) = (x^2 - 1)(x^2 + 1)$",
+    "answer": {
+        "kind": "number",
+        "value": 32
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

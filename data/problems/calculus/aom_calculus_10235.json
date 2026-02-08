@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10235",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $lim_{x→-3} ((x + 3)(x + 1))/(x + 3) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10235",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $lim_{x→-3} ((x + 3)(x + 1))/(x + 3) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

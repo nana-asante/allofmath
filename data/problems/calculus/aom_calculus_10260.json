@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10260",
-  "topic": "Calculus",
-  "seed_difficulty": 18,
-  "prompt": "Compute $lim_{x→0} (1 + 5x)^(4/x) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 485165195.4098
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10260",
+    "topic": "Calculus",
+    "seed_difficulty": 18,
+    "prompt": "Compute $lim_{x→0} (1 + 5x)^(4/x) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 485165195.4098
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

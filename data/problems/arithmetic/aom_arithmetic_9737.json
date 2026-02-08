@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9737",
-  "topic": "Arithmetic",
-  "seed_difficulty": 7,
-  "prompt": "$14% of 90 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 12.6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9737",
+    "topic": "Arithmetic",
+    "seed_difficulty": 7,
+    "prompt": "$14% of 90 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 12.6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

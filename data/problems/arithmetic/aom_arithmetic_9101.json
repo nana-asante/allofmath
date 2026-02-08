@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9101",
-  "topic": "Arithmetic",
-  "seed_difficulty": 1,
-  "prompt": "$2 + 1 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9101",
+    "topic": "Arithmetic",
+    "seed_difficulty": 1,
+    "prompt": "$2 + 1 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

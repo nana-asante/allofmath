@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9994",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = -8x^3 + 6x^2 + 5x - 7$, find $P(4) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -423
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9994",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = -8x^3 + 6x^2 + 5x - 7$, find $P(4) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -423
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

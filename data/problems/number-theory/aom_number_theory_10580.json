@@ -1,14 +1,15 @@
 {
-  "id": "aom_number_theory_10580",
-  "topic": "Number Theory",
-  "seed_difficulty": 20,
-  "prompt": "Find the smallest positive integer x such that x ≡ 2 (mod 3) and x ≡ 3 (mod 5) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 8
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_number_theory_10580",
+    "topic": "Number Theory",
+    "seed_difficulty": 20,
+    "prompt": "Find the smallest positive integer x such that x ≡ 2 (mod 3) and x ≡ 3 (mod 5) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 8
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

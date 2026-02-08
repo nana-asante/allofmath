@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_dec_039",
-  "topic": "Arithmetic",
-  "seed_difficulty": 4,
-  "prompt": "$7.8 - 0.8 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_dec_039",
+    "topic": "Arithmetic",
+    "seed_difficulty": 4,
+    "prompt": "$7.8 - 0.8 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

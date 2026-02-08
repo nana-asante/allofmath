@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9729",
-  "topic": "Arithmetic",
-  "seed_difficulty": 9,
-  "prompt": "What percent of 250 is 40 = ?",
-  "answer": {
-    "kind": "number",
-    "value": 16
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9729",
+    "topic": "Arithmetic",
+    "seed_difficulty": 9,
+    "prompt": "What percent of 250 is 40 = ?",
+    "answer": {
+        "kind": "number",
+        "value": 16
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

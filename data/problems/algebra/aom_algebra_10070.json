@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_10070",
-  "topic": "Algebra",
-  "seed_difficulty": 13,
-  "prompt": "Find the x-coordinate of $the vertex of y = 3x^2 + 12x - 2$",
-  "answer": {
-    "kind": "number",
-    "value": -2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_10070",
+    "topic": "Algebra",
+    "seed_difficulty": 13,
+    "prompt": "Find the x-coordinate of $the vertex of y = 3x^2 + 12x - 2$",
+    "answer": {
+        "kind": "number",
+        "value": -2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10373",
-  "topic": "Calculus",
-  "seed_difficulty": 17,
-  "prompt": "Compute $f'(0)$ for $f(x) = tan(5x) (x in radians)$",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10373",
+    "topic": "Calculus",
+    "seed_difficulty": 17,
+    "prompt": "Compute $f'(0)$ for $f(x) = tan(5x) (x in radians)$",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

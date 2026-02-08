@@ -1,14 +1,15 @@
 {
-  "id": "aom_trig_10148",
-  "topic": "Trigonometry",
-  "seed_difficulty": 14,
-  "prompt": "Compute: tan(45°) + tan(0°) = ?",
-  "answer": {
-    "kind": "number",
-    "value": 1
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_trig_10148",
+    "topic": "Trigonometry",
+    "seed_difficulty": 14,
+    "prompt": "Compute: tan(45°) + tan(0°) = ?",
+    "answer": {
+        "kind": "number",
+        "value": 1
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10246",
-  "topic": "Calculus",
-  "seed_difficulty": 17,
-  "prompt": "Compute $lim_{x→0} (e^{9x} - 1)/x = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 9
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10246",
+    "topic": "Calculus",
+    "seed_difficulty": 17,
+    "prompt": "Compute $lim_{x→0} (e^{9x} - 1)/x = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 9
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

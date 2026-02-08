@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_basic_015",
-  "topic": "Algebra",
-  "seed_difficulty": 6,
-  "prompt": "Solve for x: $x + 3 = 7$",
-  "answer": {
-    "kind": "number",
-    "value": 4
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_basic_015",
+    "topic": "Algebra",
+    "seed_difficulty": 6,
+    "prompt": "Solve for x: $x + 3 = 7$",
+    "answer": {
+        "kind": "number",
+        "value": 4
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

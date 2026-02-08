@@ -1,14 +1,15 @@
 {
-  "id": "aom_number_theory_10531",
-  "topic": "Number Theory",
-  "seed_difficulty": 20,
-  "prompt": "Find the remainder when $13^37$ is divided by $11 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 7
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_number_theory_10531",
+    "topic": "Number Theory",
+    "seed_difficulty": 20,
+    "prompt": "Find the remainder when $13^37$ is divided by $11 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 7
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

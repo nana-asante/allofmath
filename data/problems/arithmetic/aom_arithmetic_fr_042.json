@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_fr_042",
-  "topic": "Arithmetic",
-  "seed_difficulty": 4,
-  "prompt": "$1/5 + 2/5 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 0.6
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_fr_042",
+    "topic": "Arithmetic",
+    "seed_difficulty": 4,
+    "prompt": "$1/5 + 2/5 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 0.6
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

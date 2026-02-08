@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_fr_073",
-  "topic": "Arithmetic",
-  "seed_difficulty": 6,
-  "prompt": "$3/4 ÷ 1/4 = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 3
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_fr_073",
+    "topic": "Arithmetic",
+    "seed_difficulty": 6,
+    "prompt": "$3/4 ÷ 1/4 = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 3
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

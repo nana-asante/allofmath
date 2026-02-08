@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10409",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{1}^{5} (7x^4 - 8x^3 + 5x^2 + 9x - 1) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 2981.2
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10409",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{1}^{5} (7x^4 - 8x^3 + 5x^2 + 9x - 1) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 2981.2
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

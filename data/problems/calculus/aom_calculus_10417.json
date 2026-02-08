@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10417",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{3}^{6} (4x^4 - 4x^3 + 2x^2 + 6x - 4) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 3882.9
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10417",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{3}^{6} (4x^4 - 4x^3 + 2x^2 + 6x - 4) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 3882.9
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

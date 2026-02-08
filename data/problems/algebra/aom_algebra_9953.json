@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9953",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = 7x^4 - 9x^3 - 7x^2 - x + 5$, find $P(-1) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 15
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9953",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = 7x^4 - 9x^3 - 7x^2 - x + 5$, find $P(-1) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 15
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

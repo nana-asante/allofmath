@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9981",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = -7x^4 + 4x^3 + 4x^2 - 5x - 7$, find $P(-2) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -155
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9981",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = -7x^4 + 4x^3 + 4x^2 - 5x - 7$, find $P(-2) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -155
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

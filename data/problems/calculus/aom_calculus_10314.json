@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10314",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $f'(3)$ for $f(x) = (x - 1)^4$",
-  "answer": {
-    "kind": "number",
-    "value": 32
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10314",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $f'(3)$ for $f(x) = (x - 1)^4$",
+    "answer": {
+        "kind": "number",
+        "value": 32
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

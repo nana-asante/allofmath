@@ -1,14 +1,15 @@
 {
-  "id": "aom_arithmetic_9741",
-  "topic": "Arithmetic",
-  "seed_difficulty": 9,
-  "prompt": "$A price drops from 50 to 40: percent decrease = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 20
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_arithmetic_9741",
+    "topic": "Arithmetic",
+    "seed_difficulty": 9,
+    "prompt": "$A price drops from 50 to 40: percent decrease = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 20
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

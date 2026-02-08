@@ -1,14 +1,15 @@
 {
-  "id": "aom_equations_065",
-  "topic": "Algebra",
-  "seed_difficulty": 9,
-  "prompt": "Solve for x: $x + 5 = 2x - 3$",
-  "answer": {
-    "kind": "number",
-    "value": 8
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_equations_065",
+    "topic": "Algebra",
+    "seed_difficulty": 9,
+    "prompt": "Solve for x: $x + 5 = 2x - 3$",
+    "answer": {
+        "kind": "number",
+        "value": 8
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

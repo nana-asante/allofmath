@@ -1,14 +1,15 @@
 {
-  "id": "aom_calculus_10403",
-  "topic": "Calculus",
-  "seed_difficulty": 16,
-  "prompt": "Compute $∫_{0}^{1} (5x^3 - 4x^2 + 7x - 2) dx = ?$",
-  "answer": {
-    "kind": "number",
-    "value": 1.25
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_calculus_10403",
+    "topic": "Calculus",
+    "seed_difficulty": 16,
+    "prompt": "Compute $∫_{0}^{1} (5x^3 - 4x^2 + 7x - 2) dx = ?$",
+    "answer": {
+        "kind": "number",
+        "value": 1.25
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

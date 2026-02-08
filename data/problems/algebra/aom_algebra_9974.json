@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_9974",
-  "topic": "Algebra",
-  "seed_difficulty": 11,
-  "prompt": "If $P(x) = -4x^4 - 2x^3 - 2x^2 - 4x + 8$, find $P(2) = ?$",
-  "answer": {
-    "kind": "number",
-    "value": -56
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_9974",
+    "topic": "Algebra",
+    "seed_difficulty": 11,
+    "prompt": "If $P(x) = -4x^4 - 2x^3 - 2x^2 - 4x + 8$, find $P(2) = ?$",
+    "answer": {
+        "kind": "number",
+        "value": -56
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }

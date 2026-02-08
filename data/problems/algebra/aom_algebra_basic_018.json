@@ -1,14 +1,15 @@
 {
-  "id": "aom_algebra_basic_018",
-  "topic": "Algebra",
-  "seed_difficulty": 8,
-  "prompt": "Solve for x: $2x + 10 = 20$",
-  "answer": {
-    "kind": "number",
-    "value": 5
-  },
-  "status": "community",
-  "source": "original",
-  "license": "CC0",
-  "author": "nana-asante"
+    "id": "aom_algebra_basic_018",
+    "topic": "Algebra",
+    "seed_difficulty": 8,
+    "prompt": "Solve for x: $2x + 10 = 20$",
+    "answer": {
+        "kind": "number",
+        "value": 5
+    },
+    "status": "community",
+    "source": "original",
+    "license": "CC0",
+    "author": "nana-asante",
+    "solution_video_url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
 }
