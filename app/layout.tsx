@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     siteName: "All of Math",
     type: "website",
   },
+  metadataBase: new URL("https://allofmath.org"),
 };
 
 function Header() {
