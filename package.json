@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
-    "@supabase/supabase-js": "^2.94.1",
+    "@supabase/supabase-js": "^2.97.0",
     "@types/katex": "^0.16.8",
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.36.2",
